@@ -22,8 +22,10 @@ def fetch_short_selling_data(stock_code: str) -> pd.DataFrame:
         機関空売りデータのDataFrame
     """
     try:
-        # 銘柄コードを4桁に正規化
-        stock_code = stock_code.replace('.T', '').zfill(4)
+        # 銘柄コードを正規化
+        stock_code = stock_code.replace('.T', '')
+        if stock_code.isdigit():
+            stock_code = stock_code.zfill(4)
         
         print(f"Fetching short selling data for {stock_code}...")
         

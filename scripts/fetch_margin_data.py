@@ -22,8 +22,10 @@ def fetch_margin_data(stock_code: str) -> pd.DataFrame:
         信用取引データのDataFrame
     """
     try:
-        # 銘柄コードを4桁に正規化
-        stock_code = stock_code.replace('.T', '').zfill(4)
+        # 銘柄コードを正規化
+        stock_code = stock_code.replace('.T', '')
+        if stock_code.isdigit():
+            stock_code = stock_code.zfill(4)
         
         print(f"Fetching margin trading data for {stock_code}...")
         

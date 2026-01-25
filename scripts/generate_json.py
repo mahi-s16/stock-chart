@@ -22,13 +22,16 @@ def merge_data(stock_code: str) -> dict:
         統合データの辞書
     """
     # 銘柄コードを正規化
-    code_4digit = stock_code.replace('.T', '').zfill(4)
+    code_normalized = stock_code.replace('.T', '')
+    # 数字のみの場合は4桁にゼロパディング、文字列が含まれる場合はそのまま
+    if code_normalized.isdigit():
+        code_normalized = code_normalized.zfill(4)
     
-    print(f"=== Generating data for {code_4digit} ===\n")
+    print(f"=== Generating data for {code_normalized} ===\n")
     
     # 1. 株価データ取得
     print("1. Fetching stock price data...")
-    stock_df = fetch_stock_data(code_4digit)
+    stock_df = fetch_stock_data(code_normalized)
     
     if stock_df.empty:
         print("Error: Failed to fetch stock data")
@@ -36,11 +39,11 @@ def merge_data(stock_code: str) -> dict:
     
     # 2. 銘柄情報取得
     print("\n2. Fetching stock info...")
-    stock_info = get_stock_info(code_4digit)
+    stock_info = get_stock_info(code_normalized)
     
     # 3. 信用取引データ取得
     print("\n3. Fetching margin trading data...")
-    margin_df = fetch_margin_data(code_4digit)
+    margin_df = fetch_margin_data(code_normalized)
     
     # 週次データを日次に補間
     if not margin_df.empty:
@@ -50,7 +53,7 @@ def merge_data(stock_code: str) -> dict:
     
     # 4. 機関空売りデータ取得
     print("\n4. Fetching short selling data...")
-    short_df = fetch_short_selling_data(code_4digit)
+    short_df = fetch_short_selling_data(code_normalized)
     
     # 5. データをマージ
     print("\n5. Merging all data...")
@@ -80,7 +83,7 @@ def merge_data(stock_code: str) -> dict:
     
     # 7. JSON形式で出力
     output = {
-        'stock_code': code_4digit,
+        'stock_code': code_normalized,
         'stock_name': stock_info['name'],
         'sector': stock_info['sector'],
         'industry': stock_info['industry'],
@@ -149,7 +152,10 @@ if __name__ == "__main__":
         output_dir.mkdir(parents=True, exist_ok=True)
         
         # JSONファイルに保存
-        output_file = output_dir / f'{code.replace(".T", "").zfill(4)}.json'
+        code_for_filename = code.replace('.T', '')
+        if code_for_filename.isdigit():
+            code_for_filename = code_for_filename.zfill(4)
+        output_file = output_dir / f'{code_for_filename}.json'
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
