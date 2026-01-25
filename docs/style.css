@@ -6,27 +6,27 @@
 }
 
 :root {
-    /* カラーパレット */
-    --bg-primary: #0a0e27;
-    --bg-secondary: #151933;
-    --bg-tertiary: #1e2442;
-    --accent-primary: #6366f1;
-    --accent-secondary: #8b5cf6;
-    --text-primary: #ffffff;
-    --text-secondary: #a0aec0;
-    --border-color: #2d3748;
-    --success: #10b981;
-    --error: #ef4444;
-    
-    /* グラデーション */
-    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* カラーパレット - 目に優しい配色 */
+    --bg-primary: #1a1f2e;
+    --bg-secondary: #242938;
+    --bg-tertiary: #2d3348;
+    --accent-primary: #7c8adb;
+    --accent-secondary: #9b8fd9;
+    --text-primary: #e8eaf0;
+    --text-secondary: #b4b9c9;
+    --border-color: #3d4458;
+    --success: #5fc88f;
+    --error: #e57373;
+
+    /* グラデーション - 柔らかい色調 */
+    --gradient-primary: linear-gradient(135deg, #7c8adb 0%, #9b8fd9 100%);
     --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    
-    /* シャドウ */
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
-    --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+
+    /* シャドウ - 控えめに */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+    --shadow-glow: 0 0 20px rgba(124, 138, 219, 0.2);
 }
 
 body {
@@ -201,8 +201,13 @@ header h1 {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* エラー */
@@ -239,6 +244,7 @@ footer p {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -249,6 +255,7 @@ footer p {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -260,6 +267,7 @@ footer p {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -271,21 +279,21 @@ footer p {
     .container {
         padding: 1rem;
     }
-    
+
     header h1 {
         font-size: 2rem;
     }
-    
+
     .input-group {
         flex-direction: column;
         align-items: stretch;
     }
-    
+
     .input-group input,
     .btn-primary {
         width: 100%;
     }
-    
+
     #chart {
         height: 400px;
     }
