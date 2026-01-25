@@ -29,19 +29,11 @@ jobs:
           cd stock_chart
           pip install -r requirements.txt
       
-      - name: Generate stock data
+      - name: Generate stock data for Nikkei 225
         run: |
           cd stock_chart/scripts
-          
-          # 銘柄コードリスト
-          STOCK_CODES="${{ github.event.inputs.stock_codes || '6920,7203,9984' }}"
-          
-          # 各銘柄のデータを生成
-          IFS=',' read -ra CODES <<< "$STOCK_CODES"
-          for code in "${CODES[@]}"; do
-            echo "Generating data for $code..."
-            python generate_json.py "$code" || echo "Failed to generate data for $code"
-          done
+          python generate_all_nikkei225.py 3
+        timeout-minutes: 60
       
       - name: Commit and push changes
         run: |

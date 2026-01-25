@@ -23,6 +23,23 @@
 2. 「チャート表示」ボタンをクリック
 3. インタラクティブなチャートで分析
 
+## 対応銘柄
+
+**日経225構成銘柄 (225社)** に対応しています。
+
+毎日18:00 (JST) に全銘柄のデータが自動更新されます。
+
+主な対応銘柄:
+- レーザーテック (6920)
+- トヨタ自動車 (7203)
+- ソフトバンクグループ (9984)
+- ソニーグループ (6758)
+- ファーストリテイリング (9983)
+- キーエンス (6861)
+- その他220銘柄
+
+完全なリストは [scripts/nikkei225_stocks.json](scripts/nikkei225_stocks.json) を参照してください。
+
 ## データソース
 
 - **株価**: [Yahoo Finance](https://finance.yahoo.com/) (yfinance API)
@@ -46,9 +63,12 @@ cd stock_chart
 # 依存パッケージをインストール
 pip install -r requirements.txt
 
-# データを生成
+# データを生成(単一銘柄)
 cd scripts
 python generate_json.py 6920
+
+# 日経225全銘柄を生成
+python generate_all_nikkei225.py 3  # 3秒間隔で生成
 
 # ローカルサーバーを起動
 cd ../docs
