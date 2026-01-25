@@ -10,6 +10,7 @@ ENV/
 
 # Data files
 *.json
+!docs/data/*.json
 !docs/data/.gitkeep
 
 # OS
