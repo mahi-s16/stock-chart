@@ -6,27 +6,27 @@
 }
 
 :root {
-    /* カラーパレット - 目に優しい配色 */
-    --bg-primary: #1a1f2e;
-    --bg-secondary: #242938;
-    --bg-tertiary: #2d3348;
-    --accent-primary: #7c8adb;
-    --accent-secondary: #9b8fd9;
-    --text-primary: #e8eaf0;
-    --text-secondary: #b4b9c9;
-    --border-color: #3d4458;
-    --success: #5fc88f;
-    --error: #e57373;
+    /* カラーパレット - パステルカラー */
+    --bg-primary: #f5f7fa;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f0f3f7;
+    --accent-primary: #a8b5ff;
+    --accent-secondary: #c5b3ff;
+    --text-primary: #2d3748;
+    --text-secondary: #718096;
+    --border-color: #e2e8f0;
+    --success: #81e6b8;
+    --error: #ffa8a8;
 
-    /* グラデーション - 柔らかい色調 */
-    --gradient-primary: linear-gradient(135deg, #7c8adb 0%, #9b8fd9 100%);
-    --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    /* グラデーション - パステル */
+    --gradient-primary: linear-gradient(135deg, #a8b5ff 0%, #c5b3ff 100%);
+    --gradient-secondary: linear-gradient(135deg, #ffd4e5 0%, #c5b3ff 100%);
 
-    /* シャドウ - 控えめに */
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.12);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
-    --shadow-glow: 0 0 20px rgba(124, 138, 219, 0.2);
+    /* シャドウ - 柔らかく */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.08);
+    --shadow-glow: 0 0 20px rgba(168, 181, 255, 0.15);
 }
 
 body {
