@@ -280,21 +280,64 @@ footer p {
         padding: 1rem;
     }
 
+    header {
+        margin-bottom: 1.5rem;
+        padding: 1rem 0;
+    }
+
     header h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    header .subtitle {
+        font-size: 0.875rem;
+    }
+
+    .controls {
+        gap: 1rem;
     }
 
     .input-group {
         flex-direction: column;
         align-items: stretch;
+        gap: 0.75rem;
     }
 
     .input-group input,
     .btn-primary {
         width: 100%;
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .stock-info {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+
+    .chart-container {
+        padding: 0.5rem;
+        margin-top: 1rem;
     }
 
     #chart {
-        height: 400px;
+        height: 400px !important;
+        min-height: 400px;
+    }
+
+    /* Plotlyチャートの調整 */
+    .js-plotly-plot .plotly {
+        width: 100% !important;
+    }
+
+    .js-plotly-plot .plotly .main-svg {
+        width: 100% !important;
+    }
+
+    footer {
+        padding: 1.5rem 0;
+        font-size: 0.75rem;
     }
 }

@@ -178,62 +178,68 @@ function renderChart(data) {
     }
 
     // レイアウト設定
+    // モバイル判定
+    const isMobile = window.innerWidth <= 768;
+
+    // レイアウト設定（モバイル最適化）
     const layout = {
         title: {
             text: `${data.stock_name} (${data.stock_code}) - 株価・信用取引チャート`,
-            font: {
-                size: 20,
-                color: '#2d3748'
-            }
-        },
-        paper_bgcolor: '#ffffff',
-        plot_bgcolor: '#f5f7fa',
-        font: {
-            color: '#718096'
+            font: { size: isMobile ? 14 : 18, color: '#2d3748' }
         },
         xaxis: {
-            title: '日付',
-            gridcolor: '#e2e8f0',
-            showgrid: true
+            title: '',
+            rangeslider: { visible: false },
+            type: 'date',
+            tickfont: { size: isMobile ? 10 : 12 }
         },
         yaxis: {
-            title: '株価 (円)',
+            title: isMobile ? '' : '株価 (円)',
             side: 'left',
-            gridcolor: '#e2e8f0',
             showgrid: true,
-            tickformat: ',.0f'
+            gridcolor: '#e2e8f0',
+            tickfont: { size: isMobile ? 10 : 12 }
         },
         yaxis2: {
-            title: '信用取引・空売り (株)',
-            side: 'right',
+            title: isMobile ? '' : '信用・空売り残高',
             overlaying: 'y',
-            gridcolor: 'transparent',
+            side: 'right',
             showgrid: false,
-            tickformat: ',.0f'
-        },
-        legend: {
-            x: 0.01,
-            y: 0.99,
-            bgcolor: 'rgba(255, 255, 255, 0.95)',
-            bordercolor: '#e2e8f0',
-            borderwidth: 1
+            tickfont: { size: isMobile ? 10 : 12 }
         },
         hovermode: 'x unified',
-        shapes: volumeProfile.shapes,
+        plot_bgcolor: '#ffffff',
+        paper_bgcolor: '#f5f7fa',
+        font: { family: 'Inter, sans-serif' },
         margin: {
-            l: 80,
-            r: 80,
-            t: 80,
-            b: 60
-        }
+            l: isMobile ? 40 : 60,
+            r: isMobile ? 40 : 60,
+            t: isMobile ? 60 : 80,
+            b: isMobile ? 40 : 60
+        },
+        legend: {
+            orientation: isMobile ? 'v' : 'h',
+            yanchor: isMobile ? 'top' : 'bottom',
+            y: isMobile ? 0.99 : 1.02,
+            xanchor: isMobile ? 'left' : 'right',
+            x: isMobile ? 0.01 : 1,
+            bgcolor: 'rgba(255,255,255,0.8)',
+            bordercolor: '#e2e8f0',
+            borderwidth: 1,
+            font: { size: isMobile ? 10 : 12 }
+        },
+        autosize: true,
+        height: isMobile ? 400 : undefined,
+        shapes: volumeProfile.shapes
     };
 
-    // 設定
+    // プロット設定（モバイル最適化）
     const config = {
         responsive: true,
-        displayModeBar: true,
+        displayModeBar: !isMobile,  // モバイルではツールバーを非表示
+        displaylogo: false,
         modeBarButtonsToRemove: ['lasso2d', 'select2d'],
-        displaylogo: false
+        scrollZoom: isMobile  // モバイルではピンチズーム有効
     };
 
     // チャート描画
