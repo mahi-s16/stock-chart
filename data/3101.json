@@ -1,0 +1,2957 @@
+{
+  "stock_code": "3101",
+  "stock_name": "東洋紡",
+  "sector": "素材",
+  "industry": "Specialty Chemicals",
+  "base_date": "2025-01-23",
+  "latest_date": "2026-01-23",
+  "data": [
+    {
+      "Date": "2025-01-23",
+      "Open": 925.5936126234618,
+      "High": 927.5139313218507,
+      "Low": 919.832656528295,
+      "Close": 926.5537719726562,
+      "Volume": 143000,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-24",
+      "Open": 928.4741057719081,
+      "High": 936.1553806903934,
+      "Low": 927.5139464070975,
+      "Close": 929.4342651367188,
+      "Volume": 256100,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-27",
+      "Open": 937.1155539592831,
+      "High": 950.5577852660762,
+      "Low": 937.1155539592831,
+      "Close": 947.6773071289062,
+      "Volume": 386000,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-28",
+      "Open": 945.7569427180725,
+      "High": 951.5178987143248,
+      "Low": 945.7569427180725,
+      "Close": 946.7171020507812,
+      "Volume": 189800,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-29",
+      "Open": 946.7171483726619,
+      "High": 951.5179452711034,
+      "Low": 939.9960327148438,
+      "Close": 939.9960327148438,
+      "Volume": 190700,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-30",
+      "Open": 939.9960021039396,
+      "High": 941.9163208007812,
+      "Low": 935.1952053618359,
+      "Close": 941.9163208007812,
+      "Volume": 178100,
+      "MarginBuy": 0.0,
+      "MarginSell": 0.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-01-31",
+      "Open": 940.9561461780804,
+      "High": 942.87646484375,
+      "Low": 936.1553495139066,
+      "Close": 942.87646484375,
+      "Volume": 164900,
+      "MarginBuy": 109020.0,
+      "MarginSell": 86823.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-03",
+      "Open": 938.0757165282429,
+      "High": 938.0757165282429,
+      "Low": 909.2709350585938,
+      "Close": 909.2709350585938,
+      "Volume": 744500,
+      "MarginBuy": 109020.0,
+      "MarginSell": 86823.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-04",
+      "Open": 917.9123537720752,
+      "High": 923.6733099672974,
+      "Low": 912.151397576853,
+      "Close": 914.0717163085938,
+      "Volume": 304600,
+      "MarginBuy": 109020.0,
+      "MarginSell": 86823.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-05",
+      "Open": 914.0716855998826,
+      "High": 923.6732789360158,
+      "Low": 914.0716855998826,
+      "Close": 919.8326416015625,
+      "Volume": 183300,
+      "MarginBuy": 109020.0,
+      "MarginSell": 86823.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-06",
+      "Open": 922.7131194751129,
+      "High": 924.6334381420746,
+      "Low": 918.8724821411894,
+      "Close": 923.6732788085938,
+      "Volume": 199500,
+      "MarginBuy": 109020.0,
+      "MarginSell": 86823.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-07",
+      "Open": 924.6334835711284,
+      "High": 931.3545992357161,
+      "Low": 921.7530054291624,
+      "Close": 928.47412109375,
+      "Volume": 197300,
+      "MarginBuy": 249971.0,
+      "MarginSell": 171627.0,
+      "ShortSelling": 0.0
+    },
+    {
+      "Date": "2025-02-10",
+      "Open": 928.4740901076318,
+      "High": 939.0358429423619,
+      "Low": 927.51393075902,
+      "Close": 938.07568359375,
+      "Volume": 224000,
+      "MarginBuy": 249971.0,
+      "MarginSell": 171627.0,
+      "ShortSelling": 180735.0
+    },
+    {
+      "Date": "2025-02-12",
+      "Open": 945.7569436091222,
+      "High": 946.7171029427356,
+      "Low": 913.1115262662693,
+      "Close": 919.8326416015625,
+      "Volume": 562600,
+      "MarginBuy": 249971.0,
+      "MarginSell": 171627.0,
+      "ShortSelling": 169228.0
+    },
+    {
+      "Date": "2025-02-13",
+      "Open": 921.752959643405,
+      "High": 939.9959869696806,
+      "Low": 915.9920036456336,
+      "Close": 939.0358276367188,
+      "Volume": 404200,
+      "MarginBuy": 249971.0,
+      "MarginSell": 171627.0,
+      "ShortSelling": 169181.0
+    },
+    {
+      "Date": "2025-02-14",
+      "Open": 939.0358585310571,
+      "High": 939.0358585310571,
+      "Low": 925.5936274273405,
+      "Close": 933.27490234375,
+      "Volume": 279000,
+      "MarginBuy": 358084.0,
+      "MarginSell": 60575.0,
+      "ShortSelling": 178413.0
+    },
+    {
+      "Date": "2025-02-17",
+      "Open": 939.9960336616145,
+      "High": 944.7968305648914,
+      "Low": 928.47412109375,
+      "Close": 928.47412109375,
+      "Volume": 232300,
+      "MarginBuy": 358084.0,
+      "MarginSell": 60575.0,
+      "ShortSelling": 178891.0
+    },
+    {
+      "Date": "2025-02-18",
+      "Open": 933.27490234375,
+      "High": 936.1553804374036,
+      "Low": 927.5139461564429,
+      "Close": 933.27490234375,
+      "Volume": 147500,
+      "MarginBuy": 358084.0,
+      "MarginSell": 60575.0,
+      "ShortSelling": 179476.0
+    },
+    {
+      "Date": "2025-02-19",
+      "Open": 936.1553801864874,
+      "High": 942.8764957365441,
+      "Low": 934.2350614578997,
+      "Close": 937.1155395507812,
+      "Volume": 211500,
+      "MarginBuy": 358084.0,
+      "MarginSell": 60575.0,
+      "ShortSelling": 183029.0
+    },
+    {
+      "Date": "2025-02-20",
+      "Open": 936.1553809454826,
+      "High": 936.1553809454826,
+      "Low": 922.7131498344706,
+      "Close": 925.5936279296875,
+      "Volume": 244400,
+      "MarginBuy": 358084.0,
+      "MarginSell": 60575.0,
+      "ShortSelling": 184738.0
+    },
+    {
+      "Date": "2025-02-21",
+      "Open": 925.5936279296875,
+      "High": 928.4741060249044,
+      "Low": 916.9521936440369,
+      "Close": 925.5936279296875,
+      "Volume": 270300,
+      "MarginBuy": 381422.0,
+      "MarginSell": 89613.0,
+      "ShortSelling": 200758.0
+    },
+    {
+      "Date": "2025-02-25",
+      "Open": 921.7530057437694,
+      "High": 927.513962029668,
+      "Low": 914.0717306959046,
+      "Close": 924.6334838867188,
+      "Volume": 363400,
+      "MarginBuy": 381422.0,
+      "MarginSell": 89613.0,
+      "ShortSelling": 216824.0
+    },
+    {
+      "Date": "2025-02-26",
+      "Open": 928.4740753489746,
+      "High": 930.3943940156736,
+      "Low": 918.8724820154795,
+      "Close": 927.513916015625,
+      "Volume": 282800,
+      "MarginBuy": 381422.0,
+      "MarginSell": 89613.0,
+      "ShortSelling": 207554.0
+    },
+    {
+      "Date": "2025-02-27",
+      "Open": 927.5139607788959,
+      "High": 939.9960327148438,
+      "Low": 927.5139607788959,
+      "Close": 939.9960327148438,
+      "Volume": 197400,
+      "MarginBuy": 381422.0,
+      "MarginSell": 89613.0,
+      "ShortSelling": 223912.0
+    },
+    {
+      "Date": "2025-02-28",
+      "Open": 939.0358278884102,
+      "High": 942.876465221287,
+      "Low": 930.3943938894371,
+      "Close": 931.3545532226562,
+      "Volume": 341300,
+      "MarginBuy": 263750.0,
+      "MarginSell": 116599.0,
+      "ShortSelling": 234215.0
+    },
+    {
+      "Date": "2025-03-03",
+      "Open": 932.3147579877805,
+      "High": 939.0358736478365,
+      "Low": 930.3944392277645,
+      "Close": 936.1553955078125,
+      "Volume": 268900,
+      "MarginBuy": 263750.0,
+      "MarginSell": 116599.0,
+      "ShortSelling": 254420.0
+    },
+    {
+      "Date": "2025-03-04",
+      "Open": 932.3147126823726,
+      "High": 936.1553500157706,
+      "Low": 926.5537566822755,
+      "Close": 927.513916015625,
+      "Volume": 238800,
+      "MarginBuy": 263750.0,
+      "MarginSell": 116599.0,
+      "ShortSelling": 241467.0
+    },
+    {
+      "Date": "2025-03-05",
+      "Open": 931.3545986077725,
+      "High": 939.9960330278445,
+      "Low": 929.4342798477564,
+      "Close": 936.1553955078125,
+      "Volume": 232600,
+      "MarginBuy": 263750.0,
+      "MarginSell": 116599.0,
+      "ShortSelling": 245619.0
+    },
+    {
+      "Date": "2025-03-06",
+      "Open": 941.9163351403662,
+      "High": 959.1992036750518,
+      "Low": 941.9163351403662,
+      "Close": 956.3187255859375,
+      "Volume": 524700,
+      "MarginBuy": 263750.0,
+      "MarginSell": 116599.0,
+      "ShortSelling": 247471.0
+    },
+    {
+      "Date": "2025-03-07",
+      "Open": 949.5975799252288,
+      "High": 952.4780579229797,
+      "Low": 941.9163052645596,
+      "Close": 950.5577392578125,
+      "Volume": 284700,
+      "MarginBuy": 410862.0,
+      "MarginSell": 136708.0,
+      "ShortSelling": 250248.0
+    },
+    {
+      "Date": "2025-03-10",
+      "Open": 958.2390602985294,
+      "High": 958.2390602985294,
+      "Low": 943.8366696126797,
+      "Close": 947.6773071289062,
+      "Volume": 254100,
+      "MarginBuy": 410862.0,
+      "MarginSell": 136708.0,
+      "ShortSelling": 253128.0
+    },
+    {
+      "Date": "2025-03-11",
+      "Open": 944.7967836344901,
+      "High": 944.7967836344901,
+      "Low": 932.3147123059856,
+      "Close": 939.0358276367188,
+      "Volume": 393300,
+      "MarginBuy": 410862.0,
+      "MarginSell": 136708.0,
+      "ShortSelling": 266802.0
+    },
+    {
+      "Date": "2025-03-12",
+      "Open": 939.0358730250191,
+      "High": 943.836669921875,
+      "Low": 938.0757136456479,
+      "Close": 943.836669921875,
+      "Volume": 252200,
+      "MarginBuy": 410862.0,
+      "MarginSell": 136708.0,
+      "ShortSelling": 269203.0
+    },
+    {
+      "Date": "2025-03-13",
+      "Open": 942.8764954858897,
+      "High": 945.7569735780054,
+      "Low": 940.9561767578125,
+      "Close": 940.9561767578125,
+      "Volume": 270500,
+      "MarginBuy": 410862.0,
+      "MarginSell": 136708.0,
+      "ShortSelling": 268154.0
+    },
+    {
+      "Date": "2025-03-14",
+      "Open": 937.1155242451382,
+      "High": 939.9960022909737,
+      "Low": 934.2350461993027,
+      "Close": 938.07568359375,
+      "Volume": 283900,
+      "MarginBuy": 447785.0,
+      "MarginSell": 91518.0,
+      "ShortSelling": 270278.0
+    },
+    {
+      "Date": "2025-03-17",
+      "Open": 939.0358273891117,
+      "High": 947.67726138349,
+      "Low": 939.0358273891117,
+      "Close": 946.7171020507812,
+      "Volume": 217500,
+      "MarginBuy": 447785.0,
+      "MarginSell": 91518.0,
+      "ShortSelling": 283038.0
+    },
+    {
+      "Date": "2025-03-18",
+      "Open": 950.5577391350054,
+      "High": 959.1991731271418,
+      "Low": 949.5975798025457,
+      "Close": 954.3983764648438,
+      "Volume": 246700,
+      "MarginBuy": 447785.0,
+      "MarginSell": 91518.0,
+      "ShortSelling": 281211.0
+    },
+    {
+      "Date": "2025-03-19",
+      "Open": 954.3983914035183,
+      "High": 963.9999848784028,
+      "Low": 953.4382320560298,
+      "Close": 961.1195068359375,
+      "Volume": 272800,
+      "MarginBuy": 447785.0,
+      "MarginSell": 91518.0,
+      "ShortSelling": 306515.0
+    },
+    {
+      "Date": "2025-03-21",
+      "Open": 964.9601598532804,
+      "High": 964.9601598532804,
+      "Low": 956.3187255859375,
+      "Close": 956.3187255859375,
+      "Volume": 502200,
+      "MarginBuy": 306031.0,
+      "MarginSell": 251370.0,
+      "ShortSelling": 317826.0
+    },
+    {
+      "Date": "2025-03-24",
+      "Open": 958.2390443120137,
+      "High": 959.1992036750518,
+      "Low": 951.5179287707471,
+      "Close": 956.3187255859375,
+      "Volume": 337600,
+      "MarginBuy": 306031.0,
+      "MarginSell": 251370.0,
+      "ShortSelling": 325540.0
+    },
+    {
+      "Date": "2025-03-25",
+      "Open": 954.3984218593594,
+      "High": 960.1593781281281,
+      "Low": 952.4781031031031,
+      "Close": 959.19921875,
+      "Volume": 383900,
+      "MarginBuy": 306031.0,
+      "MarginSell": 251370.0,
+      "ShortSelling": 330525.0
+    },
+    {
+      "Date": "2025-03-26",
+      "Open": 959.1991728822628,
+      "High": 963.0398102111207,
+      "Low": 953.438216888976,
+      "Close": 962.0796508789062,
+      "Volume": 338100,
+      "MarginBuy": 306031.0,
+      "MarginSell": 251370.0,
+      "ShortSelling": 335392.0
+    },
+    {
+      "Date": "2025-03-27",
+      "Open": 958.2390438247012,
+      "High": 964.0,
+      "Low": 953.4382470119522,
+      "Close": 964.0,
+      "Volume": 730800,
+      "MarginBuy": 306031.0,
+      "MarginSell": 251370.0,
+      "ShortSelling": 339369.0
+    },
+    {
+      "Date": "2025-03-28",
+      "Open": 963.0,
+      "High": 971.0,
+      "Low": 959.0,
+      "Close": 961.0,
+      "Volume": 592800,
+      "MarginBuy": 208393.0,
+      "MarginSell": 168462.0,
+      "ShortSelling": 337189.0
+    },
+    {
+      "Date": "2025-03-31",
+      "Open": 950.0,
+      "High": 952.0,
+      "Low": 940.0,
+      "Close": 942.0,
+      "Volume": 658800,
+      "MarginBuy": 208393.0,
+      "MarginSell": 168462.0,
+      "ShortSelling": 318722.0
+    },
+    {
+      "Date": "2025-04-01",
+      "Open": 955.0,
+      "High": 961.0,
+      "Low": 948.0,
+      "Close": 950.0,
+      "Volume": 356000,
+      "MarginBuy": 208393.0,
+      "MarginSell": 168462.0,
+      "ShortSelling": 321028.0
+    },
+    {
+      "Date": "2025-04-02",
+      "Open": 956.0,
+      "High": 956.0,
+      "Low": 940.0,
+      "Close": 941.0,
+      "Volume": 290200,
+      "MarginBuy": 208393.0,
+      "MarginSell": 168462.0,
+      "ShortSelling": 306203.0
+    },
+    {
+      "Date": "2025-04-03",
+      "Open": 920.0,
+      "High": 927.0,
+      "Low": 916.0,
+      "Close": 924.0,
+      "Volume": 599600,
+      "MarginBuy": 208393.0,
+      "MarginSell": 168462.0,
+      "ShortSelling": 305712.0
+    },
+    {
+      "Date": "2025-04-04",
+      "Open": 913.0,
+      "High": 913.0,
+      "Low": 878.0,
+      "Close": 895.0,
+      "Volume": 940300,
+      "MarginBuy": 182656.0,
+      "MarginSell": 137738.0,
+      "ShortSelling": 295715.0
+    },
+    {
+      "Date": "2025-04-07",
+      "Open": 835.0,
+      "High": 845.0,
+      "Low": 811.0,
+      "Close": 829.0,
+      "Volume": 889200,
+      "MarginBuy": 182656.0,
+      "MarginSell": 137738.0,
+      "ShortSelling": 292408.0
+    },
+    {
+      "Date": "2025-04-08",
+      "Open": 849.0,
+      "High": 868.0,
+      "Low": 846.0,
+      "Close": 855.0,
+      "Volume": 446900,
+      "MarginBuy": 182656.0,
+      "MarginSell": 137738.0,
+      "ShortSelling": 290761.0
+    },
+    {
+      "Date": "2025-04-09",
+      "Open": 832.0,
+      "High": 834.0,
+      "Low": 808.0,
+      "Close": 816.0,
+      "Volume": 709100,
+      "MarginBuy": 182656.0,
+      "MarginSell": 137738.0,
+      "ShortSelling": 295807.0
+    },
+    {
+      "Date": "2025-04-10",
+      "Open": 861.0,
+      "High": 864.0,
+      "Low": 842.0,
+      "Close": 851.0,
+      "Volume": 703100,
+      "MarginBuy": 182656.0,
+      "MarginSell": 137738.0,
+      "ShortSelling": 291869.0
+    },
+    {
+      "Date": "2025-04-11",
+      "Open": 828.0,
+      "High": 836.0,
+      "Low": 816.0,
+      "Close": 834.0,
+      "Volume": 721300,
+      "MarginBuy": 137955.0,
+      "MarginSell": 146007.0,
+      "ShortSelling": 302251.0
+    },
+    {
+      "Date": "2025-04-14",
+      "Open": 839.0,
+      "High": 857.0,
+      "Low": 838.0,
+      "Close": 849.0,
+      "Volume": 331100,
+      "MarginBuy": 137955.0,
+      "MarginSell": 146007.0,
+      "ShortSelling": 278163.0
+    },
+    {
+      "Date": "2025-04-15",
+      "Open": 857.0,
+      "High": 858.0,
+      "Low": 843.0,
+      "Close": 844.0,
+      "Volume": 193800,
+      "MarginBuy": 137955.0,
+      "MarginSell": 146007.0,
+      "ShortSelling": 265472.0
+    },
+    {
+      "Date": "2025-04-16",
+      "Open": 841.0,
+      "High": 844.0,
+      "Low": 834.0,
+      "Close": 842.0,
+      "Volume": 339800,
+      "MarginBuy": 137955.0,
+      "MarginSell": 146007.0,
+      "ShortSelling": 269599.0
+    },
+    {
+      "Date": "2025-04-17",
+      "Open": 840.0,
+      "High": 847.0,
+      "Low": 837.0,
+      "Close": 847.0,
+      "Volume": 215500,
+      "MarginBuy": 137955.0,
+      "MarginSell": 146007.0,
+      "ShortSelling": 276175.0
+    },
+    {
+      "Date": "2025-04-18",
+      "Open": 857.0,
+      "High": 861.0,
+      "Low": 850.0,
+      "Close": 860.0,
+      "Volume": 173200,
+      "MarginBuy": 268931.0,
+      "MarginSell": 227130.0,
+      "ShortSelling": 277986.0
+    },
+    {
+      "Date": "2025-04-21",
+      "Open": 859.0,
+      "High": 864.0,
+      "Low": 852.0,
+      "Close": 857.0,
+      "Volume": 336600,
+      "MarginBuy": 268931.0,
+      "MarginSell": 227130.0,
+      "ShortSelling": 281154.0
+    },
+    {
+      "Date": "2025-04-22",
+      "Open": 849.0,
+      "High": 862.0,
+      "Low": 849.0,
+      "Close": 862.0,
+      "Volume": 221900,
+      "MarginBuy": 268931.0,
+      "MarginSell": 227130.0,
+      "ShortSelling": 277075.0
+    },
+    {
+      "Date": "2025-04-23",
+      "Open": 868.0,
+      "High": 877.0,
+      "Low": 866.0,
+      "Close": 875.0,
+      "Volume": 238300,
+      "MarginBuy": 268931.0,
+      "MarginSell": 227130.0,
+      "ShortSelling": 261841.0
+    },
+    {
+      "Date": "2025-04-24",
+      "Open": 876.0,
+      "High": 889.0,
+      "Low": 876.0,
+      "Close": 881.0,
+      "Volume": 273600,
+      "MarginBuy": 268931.0,
+      "MarginSell": 227130.0,
+      "ShortSelling": 257819.0
+    },
+    {
+      "Date": "2025-04-25",
+      "Open": 880.0,
+      "High": 888.0,
+      "Low": 877.0,
+      "Close": 885.0,
+      "Volume": 245000,
+      "MarginBuy": 298630.0,
+      "MarginSell": 91565.0,
+      "ShortSelling": 260695.0
+    },
+    {
+      "Date": "2025-04-28",
+      "Open": 888.0,
+      "High": 889.0,
+      "Low": 879.0,
+      "Close": 883.0,
+      "Volume": 207400,
+      "MarginBuy": 298630.0,
+      "MarginSell": 91565.0,
+      "ShortSelling": 257592.0
+    },
+    {
+      "Date": "2025-04-30",
+      "Open": 891.0,
+      "High": 892.0,
+      "Low": 881.0,
+      "Close": 885.0,
+      "Volume": 311500,
+      "MarginBuy": 298630.0,
+      "MarginSell": 91565.0,
+      "ShortSelling": 261159.0
+    },
+    {
+      "Date": "2025-05-01",
+      "Open": 885.0,
+      "High": 890.0,
+      "Low": 881.0,
+      "Close": 887.0,
+      "Volume": 199300,
+      "MarginBuy": 298630.0,
+      "MarginSell": 91565.0,
+      "ShortSelling": 254792.0
+    },
+    {
+      "Date": "2025-05-02",
+      "Open": 883.0,
+      "High": 895.0,
+      "Low": 883.0,
+      "Close": 891.0,
+      "Volume": 214400,
+      "MarginBuy": 487400.0,
+      "MarginSell": 130274.0,
+      "ShortSelling": 260245.0
+    },
+    {
+      "Date": "2025-05-07",
+      "Open": 886.0,
+      "High": 890.0,
+      "Low": 883.0,
+      "Close": 886.0,
+      "Volume": 192000,
+      "MarginBuy": 487400.0,
+      "MarginSell": 130274.0,
+      "ShortSelling": 284544.0
+    },
+    {
+      "Date": "2025-05-08",
+      "Open": 886.0,
+      "High": 891.0,
+      "Low": 882.0,
+      "Close": 891.0,
+      "Volume": 236000,
+      "MarginBuy": 487400.0,
+      "MarginSell": 130274.0,
+      "ShortSelling": 289493.0
+    },
+    {
+      "Date": "2025-05-09",
+      "Open": 897.0,
+      "High": 906.0,
+      "Low": 895.0,
+      "Close": 901.0,
+      "Volume": 399400,
+      "MarginBuy": 447672.0,
+      "MarginSell": 250257.0,
+      "ShortSelling": 276997.0
+    },
+    {
+      "Date": "2025-05-12",
+      "Open": 906.0,
+      "High": 931.0,
+      "Low": 900.0,
+      "Close": 911.0,
+      "Volume": 524500,
+      "MarginBuy": 447672.0,
+      "MarginSell": 250257.0,
+      "ShortSelling": 296082.0
+    },
+    {
+      "Date": "2025-05-13",
+      "Open": 926.0,
+      "High": 934.0,
+      "Low": 914.0,
+      "Close": 915.0,
+      "Volume": 339700,
+      "MarginBuy": 447672.0,
+      "MarginSell": 250257.0,
+      "ShortSelling": 304081.0
+    },
+    {
+      "Date": "2025-05-14",
+      "Open": 911.0,
+      "High": 923.0,
+      "Low": 900.0,
+      "Close": 905.0,
+      "Volume": 292200,
+      "MarginBuy": 447672.0,
+      "MarginSell": 250257.0,
+      "ShortSelling": 305049.0
+    },
+    {
+      "Date": "2025-05-15",
+      "Open": 899.0,
+      "High": 900.0,
+      "Low": 887.0,
+      "Close": 887.0,
+      "Volume": 312600,
+      "MarginBuy": 447672.0,
+      "MarginSell": 250257.0,
+      "ShortSelling": 300352.0
+    },
+    {
+      "Date": "2025-05-16",
+      "Open": 892.0,
+      "High": 894.0,
+      "Low": 877.0,
+      "Close": 886.0,
+      "Volume": 289900,
+      "MarginBuy": 305132.0,
+      "MarginSell": 64634.0,
+      "ShortSelling": 297151.0
+    },
+    {
+      "Date": "2025-05-19",
+      "Open": 880.0,
+      "High": 884.0,
+      "Low": 879.0,
+      "Close": 881.0,
+      "Volume": 345600,
+      "MarginBuy": 305132.0,
+      "MarginSell": 64634.0,
+      "ShortSelling": 295029.0
+    },
+    {
+      "Date": "2025-05-20",
+      "Open": 884.0,
+      "High": 886.0,
+      "Low": 870.0,
+      "Close": 871.0,
+      "Volume": 357300,
+      "MarginBuy": 305132.0,
+      "MarginSell": 64634.0,
+      "ShortSelling": 282381.0
+    },
+    {
+      "Date": "2025-05-21",
+      "Open": 878.0,
+      "High": 882.0,
+      "Low": 876.0,
+      "Close": 876.0,
+      "Volume": 205200,
+      "MarginBuy": 305132.0,
+      "MarginSell": 64634.0,
+      "ShortSelling": 281815.0
+    },
+    {
+      "Date": "2025-05-22",
+      "Open": 870.0,
+      "High": 873.0,
+      "Low": 864.0,
+      "Close": 869.0,
+      "Volume": 324300,
+      "MarginBuy": 305132.0,
+      "MarginSell": 64634.0,
+      "ShortSelling": 272435.0
+    },
+    {
+      "Date": "2025-05-23",
+      "Open": 869.0,
+      "High": 880.0,
+      "Low": 869.0,
+      "Close": 875.0,
+      "Volume": 242300,
+      "MarginBuy": 432472.0,
+      "MarginSell": 100206.0,
+      "ShortSelling": 277271.0
+    },
+    {
+      "Date": "2025-05-26",
+      "Open": 876.0,
+      "High": 888.0,
+      "Low": 876.0,
+      "Close": 882.0,
+      "Volume": 285100,
+      "MarginBuy": 432472.0,
+      "MarginSell": 100206.0,
+      "ShortSelling": 274413.0
+    },
+    {
+      "Date": "2025-05-27",
+      "Open": 885.0,
+      "High": 892.0,
+      "Low": 882.0,
+      "Close": 890.0,
+      "Volume": 184000,
+      "MarginBuy": 432472.0,
+      "MarginSell": 100206.0,
+      "ShortSelling": 283115.0
+    },
+    {
+      "Date": "2025-05-28",
+      "Open": 897.0,
+      "High": 904.0,
+      "Low": 894.0,
+      "Close": 897.0,
+      "Volume": 285600,
+      "MarginBuy": 432472.0,
+      "MarginSell": 100206.0,
+      "ShortSelling": 278124.0
+    },
+    {
+      "Date": "2025-05-29",
+      "Open": 897.0,
+      "High": 900.0,
+      "Low": 893.0,
+      "Close": 900.0,
+      "Volume": 172500,
+      "MarginBuy": 432472.0,
+      "MarginSell": 100206.0,
+      "ShortSelling": 276170.0
+    },
+    {
+      "Date": "2025-05-30",
+      "Open": 897.0,
+      "High": 903.0,
+      "Low": 892.0,
+      "Close": 900.0,
+      "Volume": 398600,
+      "MarginBuy": 344026.0,
+      "MarginSell": 72444.0,
+      "ShortSelling": 268565.0
+    },
+    {
+      "Date": "2025-06-02",
+      "Open": 894.0,
+      "High": 896.0,
+      "Low": 889.0,
+      "Close": 894.0,
+      "Volume": 223700,
+      "MarginBuy": 344026.0,
+      "MarginSell": 72444.0,
+      "ShortSelling": 267277.0
+    },
+    {
+      "Date": "2025-06-03",
+      "Open": 895.0,
+      "High": 895.0,
+      "Low": 887.0,
+      "Close": 893.0,
+      "Volume": 222400,
+      "MarginBuy": 344026.0,
+      "MarginSell": 72444.0,
+      "ShortSelling": 263480.0
+    },
+    {
+      "Date": "2025-06-04",
+      "Open": 897.0,
+      "High": 904.0,
+      "Low": 891.0,
+      "Close": 900.0,
+      "Volume": 303100,
+      "MarginBuy": 344026.0,
+      "MarginSell": 72444.0,
+      "ShortSelling": 252135.0
+    },
+    {
+      "Date": "2025-06-05",
+      "Open": 900.0,
+      "High": 914.0,
+      "Low": 897.0,
+      "Close": 906.0,
+      "Volume": 408200,
+      "MarginBuy": 344026.0,
+      "MarginSell": 72444.0,
+      "ShortSelling": 244171.0
+    },
+    {
+      "Date": "2025-06-06",
+      "Open": 906.0,
+      "High": 912.0,
+      "Low": 902.0,
+      "Close": 902.0,
+      "Volume": 209200,
+      "MarginBuy": 260296.0,
+      "MarginSell": 278930.0,
+      "ShortSelling": 242784.0
+    },
+    {
+      "Date": "2025-06-09",
+      "Open": 903.0,
+      "High": 908.0,
+      "Low": 897.0,
+      "Close": 902.0,
+      "Volume": 290100,
+      "MarginBuy": 260296.0,
+      "MarginSell": 278930.0,
+      "ShortSelling": 249679.0
+    },
+    {
+      "Date": "2025-06-10",
+      "Open": 909.0,
+      "High": 911.0,
+      "Low": 904.0,
+      "Close": 904.0,
+      "Volume": 431700,
+      "MarginBuy": 260296.0,
+      "MarginSell": 278930.0,
+      "ShortSelling": 264573.0
+    },
+    {
+      "Date": "2025-06-11",
+      "Open": 903.0,
+      "High": 908.0,
+      "Low": 901.0,
+      "Close": 907.0,
+      "Volume": 217800,
+      "MarginBuy": 260296.0,
+      "MarginSell": 278930.0,
+      "ShortSelling": 268072.0
+    },
+    {
+      "Date": "2025-06-12",
+      "Open": 904.0,
+      "High": 911.0,
+      "Low": 899.0,
+      "Close": 901.0,
+      "Volume": 202800,
+      "MarginBuy": 260296.0,
+      "MarginSell": 278930.0,
+      "ShortSelling": 289428.0
+    },
+    {
+      "Date": "2025-06-13",
+      "Open": 897.0,
+      "High": 898.0,
+      "Low": 884.0,
+      "Close": 889.0,
+      "Volume": 332400,
+      "MarginBuy": 142242.0,
+      "MarginSell": 53283.0,
+      "ShortSelling": 294394.0
+    },
+    {
+      "Date": "2025-06-16",
+      "Open": 892.0,
+      "High": 896.0,
+      "Low": 888.0,
+      "Close": 889.0,
+      "Volume": 148100,
+      "MarginBuy": 142242.0,
+      "MarginSell": 53283.0,
+      "ShortSelling": 287274.0
+    },
+    {
+      "Date": "2025-06-17",
+      "Open": 895.0,
+      "High": 897.0,
+      "Low": 890.0,
+      "Close": 895.0,
+      "Volume": 193100,
+      "MarginBuy": 142242.0,
+      "MarginSell": 53283.0,
+      "ShortSelling": 276945.0
+    },
+    {
+      "Date": "2025-06-18",
+      "Open": 894.0,
+      "High": 903.0,
+      "Low": 894.0,
+      "Close": 902.0,
+      "Volume": 237200,
+      "MarginBuy": 142242.0,
+      "MarginSell": 53283.0,
+      "ShortSelling": 287006.0
+    },
+    {
+      "Date": "2025-06-19",
+      "Open": 900.0,
+      "High": 900.0,
+      "Low": 890.0,
+      "Close": 895.0,
+      "Volume": 188500,
+      "MarginBuy": 142242.0,
+      "MarginSell": 53283.0,
+      "ShortSelling": 311378.0
+    },
+    {
+      "Date": "2025-06-20",
+      "Open": 896.0,
+      "High": 904.0,
+      "Low": 892.0,
+      "Close": 898.0,
+      "Volume": 385100,
+      "MarginBuy": 451905.0,
+      "MarginSell": 276310.0,
+      "ShortSelling": 320629.0
+    },
+    {
+      "Date": "2025-06-23",
+      "Open": 902.0,
+      "High": 902.0,
+      "Low": 889.0,
+      "Close": 897.0,
+      "Volume": 236800,
+      "MarginBuy": 451905.0,
+      "MarginSell": 276310.0,
+      "ShortSelling": 313412.0
+    },
+    {
+      "Date": "2025-06-24",
+      "Open": 902.0,
+      "High": 907.0,
+      "Low": 900.0,
+      "Close": 903.0,
+      "Volume": 230700,
+      "MarginBuy": 451905.0,
+      "MarginSell": 276310.0,
+      "ShortSelling": 314423.0
+    },
+    {
+      "Date": "2025-06-25",
+      "Open": 904.0,
+      "High": 905.0,
+      "Low": 898.0,
+      "Close": 905.0,
+      "Volume": 336500,
+      "MarginBuy": 451905.0,
+      "MarginSell": 276310.0,
+      "ShortSelling": 321340.0
+    },
+    {
+      "Date": "2025-06-26",
+      "Open": 906.0,
+      "High": 917.0,
+      "Low": 906.0,
+      "Close": 912.0,
+      "Volume": 354900,
+      "MarginBuy": 451905.0,
+      "MarginSell": 276310.0,
+      "ShortSelling": 301246.0
+    },
+    {
+      "Date": "2025-06-27",
+      "Open": 914.0,
+      "High": 921.0,
+      "Low": 909.0,
+      "Close": 921.0,
+      "Volume": 392000,
+      "MarginBuy": 336729.0,
+      "MarginSell": 206606.0,
+      "ShortSelling": 312818.0
+    },
+    {
+      "Date": "2025-06-30",
+      "Open": 928.0,
+      "High": 929.0,
+      "Low": 918.0,
+      "Close": 918.0,
+      "Volume": 308000,
+      "MarginBuy": 336729.0,
+      "MarginSell": 206606.0,
+      "ShortSelling": 302748.0
+    },
+    {
+      "Date": "2025-07-01",
+      "Open": 913.0,
+      "High": 915.0,
+      "Low": 908.0,
+      "Close": 913.0,
+      "Volume": 372100,
+      "MarginBuy": 336729.0,
+      "MarginSell": 206606.0,
+      "ShortSelling": 294412.0
+    },
+    {
+      "Date": "2025-07-02",
+      "Open": 909.0,
+      "High": 924.0,
+      "Low": 908.0,
+      "Close": 922.0,
+      "Volume": 238400,
+      "MarginBuy": 336729.0,
+      "MarginSell": 206606.0,
+      "ShortSelling": 297825.0
+    },
+    {
+      "Date": "2025-07-03",
+      "Open": 920.0,
+      "High": 931.0,
+      "Low": 918.0,
+      "Close": 929.0,
+      "Volume": 227500,
+      "MarginBuy": 336729.0,
+      "MarginSell": 206606.0,
+      "ShortSelling": 293330.0
+    },
+    {
+      "Date": "2025-07-04",
+      "Open": 932.0,
+      "High": 937.0,
+      "Low": 928.0,
+      "Close": 933.0,
+      "Volume": 368000,
+      "MarginBuy": 311284.0,
+      "MarginSell": 265207.0,
+      "ShortSelling": 280091.0
+    },
+    {
+      "Date": "2025-07-07",
+      "Open": 931.0,
+      "High": 932.0,
+      "Low": 916.0,
+      "Close": 916.0,
+      "Volume": 213700,
+      "MarginBuy": 311284.0,
+      "MarginSell": 265207.0,
+      "ShortSelling": 293063.0
+    },
+    {
+      "Date": "2025-07-08",
+      "Open": 916.0,
+      "High": 928.0,
+      "Low": 915.0,
+      "Close": 925.0,
+      "Volume": 206100,
+      "MarginBuy": 311284.0,
+      "MarginSell": 265207.0,
+      "ShortSelling": 290267.0
+    },
+    {
+      "Date": "2025-07-09",
+      "Open": 930.0,
+      "High": 944.0,
+      "Low": 930.0,
+      "Close": 936.0,
+      "Volume": 288600,
+      "MarginBuy": 311284.0,
+      "MarginSell": 265207.0,
+      "ShortSelling": 294834.0
+    },
+    {
+      "Date": "2025-07-10",
+      "Open": 937.0,
+      "High": 940.0,
+      "Low": 930.0,
+      "Close": 932.0,
+      "Volume": 390400,
+      "MarginBuy": 311284.0,
+      "MarginSell": 265207.0,
+      "ShortSelling": 305152.0
+    },
+    {
+      "Date": "2025-07-11",
+      "Open": 939.0,
+      "High": 947.0,
+      "Low": 939.0,
+      "Close": 945.0,
+      "Volume": 206900,
+      "MarginBuy": 276447.0,
+      "MarginSell": 216380.0,
+      "ShortSelling": 298731.0
+    },
+    {
+      "Date": "2025-07-14",
+      "Open": 944.0,
+      "High": 946.0,
+      "Low": 939.0,
+      "Close": 944.0,
+      "Volume": 121200,
+      "MarginBuy": 276447.0,
+      "MarginSell": 216380.0,
+      "ShortSelling": 313801.0
+    },
+    {
+      "Date": "2025-07-15",
+      "Open": 944.0,
+      "High": 946.0,
+      "Low": 940.0,
+      "Close": 942.0,
+      "Volume": 122400,
+      "MarginBuy": 276447.0,
+      "MarginSell": 216380.0,
+      "ShortSelling": 310498.0
+    },
+    {
+      "Date": "2025-07-16",
+      "Open": 946.0,
+      "High": 946.0,
+      "Low": 935.0,
+      "Close": 935.0,
+      "Volume": 127200,
+      "MarginBuy": 276447.0,
+      "MarginSell": 216380.0,
+      "ShortSelling": 318414.0
+    },
+    {
+      "Date": "2025-07-17",
+      "Open": 931.0,
+      "High": 935.0,
+      "Low": 928.0,
+      "Close": 933.0,
+      "Volume": 139800,
+      "MarginBuy": 276447.0,
+      "MarginSell": 216380.0,
+      "ShortSelling": 305441.0
+    },
+    {
+      "Date": "2025-07-18",
+      "Open": 933.0,
+      "High": 938.0,
+      "Low": 931.0,
+      "Close": 934.0,
+      "Volume": 134800,
+      "MarginBuy": 333734.0,
+      "MarginSell": 87667.0,
+      "ShortSelling": 308891.0
+    },
+    {
+      "Date": "2025-07-22",
+      "Open": 932.0,
+      "High": 938.0,
+      "Low": 926.0,
+      "Close": 927.0,
+      "Volume": 167200,
+      "MarginBuy": 333734.0,
+      "MarginSell": 87667.0,
+      "ShortSelling": 307543.0
+    },
+    {
+      "Date": "2025-07-23",
+      "Open": 945.0,
+      "High": 967.0,
+      "Low": 945.0,
+      "Close": 962.0,
+      "Volume": 571100,
+      "MarginBuy": 333734.0,
+      "MarginSell": 87667.0,
+      "ShortSelling": 300825.0
+    },
+    {
+      "Date": "2025-07-24",
+      "Open": 967.0,
+      "High": 975.0,
+      "Low": 966.0,
+      "Close": 975.0,
+      "Volume": 506900,
+      "MarginBuy": 333734.0,
+      "MarginSell": 87667.0,
+      "ShortSelling": 313943.0
+    },
+    {
+      "Date": "2025-07-25",
+      "Open": 974.0,
+      "High": 976.0,
+      "Low": 963.0,
+      "Close": 975.0,
+      "Volume": 314100,
+      "MarginBuy": 193685.0,
+      "MarginSell": 97503.0,
+      "ShortSelling": 318109.0
+    },
+    {
+      "Date": "2025-07-28",
+      "Open": 973.0,
+      "High": 981.0,
+      "Low": 971.0,
+      "Close": 979.0,
+      "Volume": 206100,
+      "MarginBuy": 193685.0,
+      "MarginSell": 97503.0,
+      "ShortSelling": 319809.0
+    },
+    {
+      "Date": "2025-07-29",
+      "Open": 972.0,
+      "High": 979.0,
+      "Low": 967.0,
+      "Close": 975.0,
+      "Volume": 156800,
+      "MarginBuy": 193685.0,
+      "MarginSell": 97503.0,
+      "ShortSelling": 297428.0
+    },
+    {
+      "Date": "2025-07-30",
+      "Open": 973.0,
+      "High": 981.0,
+      "Low": 969.0,
+      "Close": 978.0,
+      "Volume": 268400,
+      "MarginBuy": 193685.0,
+      "MarginSell": 97503.0,
+      "ShortSelling": 311276.0
+    },
+    {
+      "Date": "2025-07-31",
+      "Open": 976.0,
+      "High": 985.0,
+      "Low": 975.0,
+      "Close": 980.0,
+      "Volume": 368000,
+      "MarginBuy": 193685.0,
+      "MarginSell": 97503.0,
+      "ShortSelling": 315444.0
+    },
+    {
+      "Date": "2025-08-01",
+      "Open": 982.0,
+      "High": 1000.0,
+      "Low": 980.0,
+      "Close": 1000.0,
+      "Volume": 414100,
+      "MarginBuy": 189731.0,
+      "MarginSell": 88050.0,
+      "ShortSelling": 313591.0
+    },
+    {
+      "Date": "2025-08-04",
+      "Open": 987.0,
+      "High": 997.0,
+      "Low": 985.0,
+      "Close": 995.0,
+      "Volume": 296600,
+      "MarginBuy": 189731.0,
+      "MarginSell": 88050.0,
+      "ShortSelling": 303539.0
+    },
+    {
+      "Date": "2025-08-05",
+      "Open": 1000.0,
+      "High": 1018.0,
+      "Low": 996.0,
+      "Close": 1009.0,
+      "Volume": 516300,
+      "MarginBuy": 189731.0,
+      "MarginSell": 88050.0,
+      "ShortSelling": 309983.0
+    },
+    {
+      "Date": "2025-08-06",
+      "Open": 1017.0,
+      "High": 1020.0,
+      "Low": 1010.0,
+      "Close": 1017.0,
+      "Volume": 330000,
+      "MarginBuy": 189731.0,
+      "MarginSell": 88050.0,
+      "ShortSelling": 314501.0
+    },
+    {
+      "Date": "2025-08-07",
+      "Open": 1019.0,
+      "High": 1048.0,
+      "Low": 1005.0,
+      "Close": 1037.0,
+      "Volume": 1220000,
+      "MarginBuy": 189731.0,
+      "MarginSell": 88050.0,
+      "ShortSelling": 312745.0
+    },
+    {
+      "Date": "2025-08-08",
+      "Open": 1037.0,
+      "High": 1039.0,
+      "Low": 1021.0,
+      "Close": 1026.0,
+      "Volume": 586000,
+      "MarginBuy": 150839.0,
+      "MarginSell": 215204.0,
+      "ShortSelling": 306973.0
+    },
+    {
+      "Date": "2025-08-12",
+      "Open": 1028.0,
+      "High": 1034.0,
+      "Low": 1020.0,
+      "Close": 1033.0,
+      "Volume": 501200,
+      "MarginBuy": 150839.0,
+      "MarginSell": 215204.0,
+      "ShortSelling": 319519.0
+    },
+    {
+      "Date": "2025-08-13",
+      "Open": 1045.0,
+      "High": 1049.0,
+      "Low": 1038.0,
+      "Close": 1038.0,
+      "Volume": 647300,
+      "MarginBuy": 150839.0,
+      "MarginSell": 215204.0,
+      "ShortSelling": 320014.0
+    },
+    {
+      "Date": "2025-08-14",
+      "Open": 1049.0,
+      "High": 1054.0,
+      "Low": 1039.0,
+      "Close": 1043.0,
+      "Volume": 636100,
+      "MarginBuy": 150839.0,
+      "MarginSell": 215204.0,
+      "ShortSelling": 317771.0
+    },
+    {
+      "Date": "2025-08-15",
+      "Open": 1044.0,
+      "High": 1049.0,
+      "Low": 1036.0,
+      "Close": 1041.0,
+      "Volume": 433600,
+      "MarginBuy": 369977.0,
+      "MarginSell": 241939.0,
+      "ShortSelling": 312831.0
+    },
+    {
+      "Date": "2025-08-18",
+      "Open": 1041.0,
+      "High": 1048.0,
+      "Low": 1038.0,
+      "Close": 1045.0,
+      "Volume": 308300,
+      "MarginBuy": 369977.0,
+      "MarginSell": 241939.0,
+      "ShortSelling": 305979.0
+    },
+    {
+      "Date": "2025-08-19",
+      "Open": 1047.0,
+      "High": 1058.0,
+      "Low": 1047.0,
+      "Close": 1056.0,
+      "Volume": 530400,
+      "MarginBuy": 369977.0,
+      "MarginSell": 241939.0,
+      "ShortSelling": 315212.0
+    },
+    {
+      "Date": "2025-08-20",
+      "Open": 1052.0,
+      "High": 1056.0,
+      "Low": 1043.0,
+      "Close": 1043.0,
+      "Volume": 333800,
+      "MarginBuy": 369977.0,
+      "MarginSell": 241939.0,
+      "ShortSelling": 319025.0
+    },
+    {
+      "Date": "2025-08-21",
+      "Open": 1048.0,
+      "High": 1068.0,
+      "Low": 1043.0,
+      "Close": 1066.0,
+      "Volume": 479500,
+      "MarginBuy": 369977.0,
+      "MarginSell": 241939.0,
+      "ShortSelling": 319162.0
+    },
+    {
+      "Date": "2025-08-22",
+      "Open": 1066.0,
+      "High": 1073.0,
+      "Low": 1058.0,
+      "Close": 1073.0,
+      "Volume": 291000,
+      "MarginBuy": 267490.0,
+      "MarginSell": 76456.0,
+      "ShortSelling": 323992.0
+    },
+    {
+      "Date": "2025-08-25",
+      "Open": 1083.0,
+      "High": 1087.0,
+      "Low": 1076.0,
+      "Close": 1080.0,
+      "Volume": 339900,
+      "MarginBuy": 267490.0,
+      "MarginSell": 76456.0,
+      "ShortSelling": 306435.0
+    },
+    {
+      "Date": "2025-08-26",
+      "Open": 1083.0,
+      "High": 1085.0,
+      "Low": 1072.0,
+      "Close": 1082.0,
+      "Volume": 344000,
+      "MarginBuy": 267490.0,
+      "MarginSell": 76456.0,
+      "ShortSelling": 294458.0
+    },
+    {
+      "Date": "2025-08-27",
+      "Open": 1080.0,
+      "High": 1092.0,
+      "Low": 1072.0,
+      "Close": 1086.0,
+      "Volume": 281800,
+      "MarginBuy": 267490.0,
+      "MarginSell": 76456.0,
+      "ShortSelling": 282978.0
+    },
+    {
+      "Date": "2025-08-28",
+      "Open": 1088.0,
+      "High": 1089.0,
+      "Low": 1075.0,
+      "Close": 1078.0,
+      "Volume": 206500,
+      "MarginBuy": 267490.0,
+      "MarginSell": 76456.0,
+      "ShortSelling": 297326.0
+    },
+    {
+      "Date": "2025-08-29",
+      "Open": 1098.0,
+      "High": 1099.0,
+      "Low": 1085.0,
+      "Close": 1088.0,
+      "Volume": 423000,
+      "MarginBuy": 279647.0,
+      "MarginSell": 179013.0,
+      "ShortSelling": 308089.0
+    },
+    {
+      "Date": "2025-09-01",
+      "Open": 1090.0,
+      "High": 1110.0,
+      "Low": 1090.0,
+      "Close": 1106.0,
+      "Volume": 471400,
+      "MarginBuy": 279647.0,
+      "MarginSell": 179013.0,
+      "ShortSelling": 298263.0
+    },
+    {
+      "Date": "2025-09-02",
+      "Open": 1105.0,
+      "High": 1112.0,
+      "Low": 1098.0,
+      "Close": 1104.0,
+      "Volume": 369100,
+      "MarginBuy": 279647.0,
+      "MarginSell": 179013.0,
+      "ShortSelling": 320664.0
+    },
+    {
+      "Date": "2025-09-03",
+      "Open": 1100.0,
+      "High": 1114.0,
+      "Low": 1099.0,
+      "Close": 1113.0,
+      "Volume": 481100,
+      "MarginBuy": 279647.0,
+      "MarginSell": 179013.0,
+      "ShortSelling": 338325.0
+    },
+    {
+      "Date": "2025-09-04",
+      "Open": 1118.0,
+      "High": 1128.0,
+      "Low": 1113.0,
+      "Close": 1125.0,
+      "Volume": 478600,
+      "MarginBuy": 279647.0,
+      "MarginSell": 179013.0,
+      "ShortSelling": 332763.0
+    },
+    {
+      "Date": "2025-09-05",
+      "Open": 1131.0,
+      "High": 1153.0,
+      "Low": 1128.0,
+      "Close": 1147.0,
+      "Volume": 587200,
+      "MarginBuy": 393379.0,
+      "MarginSell": 252697.0,
+      "ShortSelling": 337501.0
+    },
+    {
+      "Date": "2025-09-08",
+      "Open": 1154.0,
+      "High": 1160.0,
+      "Low": 1145.0,
+      "Close": 1157.0,
+      "Volume": 426200,
+      "MarginBuy": 393379.0,
+      "MarginSell": 252697.0,
+      "ShortSelling": 354504.0
+    },
+    {
+      "Date": "2025-09-09",
+      "Open": 1170.0,
+      "High": 1181.0,
+      "Low": 1167.0,
+      "Close": 1179.0,
+      "Volume": 771800,
+      "MarginBuy": 393379.0,
+      "MarginSell": 252697.0,
+      "ShortSelling": 356560.0
+    },
+    {
+      "Date": "2025-09-10",
+      "Open": 1168.0,
+      "High": 1169.0,
+      "Low": 1157.0,
+      "Close": 1164.0,
+      "Volume": 476400,
+      "MarginBuy": 393379.0,
+      "MarginSell": 252697.0,
+      "ShortSelling": 348772.0
+    },
+    {
+      "Date": "2025-09-11",
+      "Open": 1166.0,
+      "High": 1173.0,
+      "Low": 1159.0,
+      "Close": 1163.0,
+      "Volume": 284700,
+      "MarginBuy": 393379.0,
+      "MarginSell": 252697.0,
+      "ShortSelling": 338178.0
+    },
+    {
+      "Date": "2025-09-12",
+      "Open": 1173.0,
+      "High": 1175.0,
+      "Low": 1160.0,
+      "Close": 1163.0,
+      "Volume": 335900,
+      "MarginBuy": 496161.0,
+      "MarginSell": 188981.0,
+      "ShortSelling": 339777.0
+    },
+    {
+      "Date": "2025-09-16",
+      "Open": 1156.0,
+      "High": 1164.0,
+      "Low": 1154.0,
+      "Close": 1164.0,
+      "Volume": 301100,
+      "MarginBuy": 496161.0,
+      "MarginSell": 188981.0,
+      "ShortSelling": 332114.0
+    },
+    {
+      "Date": "2025-09-17",
+      "Open": 1159.0,
+      "High": 1159.0,
+      "Low": 1135.0,
+      "Close": 1140.0,
+      "Volume": 397800,
+      "MarginBuy": 496161.0,
+      "MarginSell": 188981.0,
+      "ShortSelling": 323308.0
+    },
+    {
+      "Date": "2025-09-18",
+      "Open": 1142.0,
+      "High": 1142.0,
+      "Low": 1125.0,
+      "Close": 1128.0,
+      "Volume": 348600,
+      "MarginBuy": 496161.0,
+      "MarginSell": 188981.0,
+      "ShortSelling": 329266.0
+    },
+    {
+      "Date": "2025-09-19",
+      "Open": 1130.0,
+      "High": 1135.0,
+      "Low": 1115.0,
+      "Close": 1119.0,
+      "Volume": 568000,
+      "MarginBuy": 441418.0,
+      "MarginSell": 247366.0,
+      "ShortSelling": 335512.0
+    },
+    {
+      "Date": "2025-09-22",
+      "Open": 1112.0,
+      "High": 1132.0,
+      "Low": 1109.0,
+      "Close": 1122.0,
+      "Volume": 251900,
+      "MarginBuy": 441418.0,
+      "MarginSell": 247366.0,
+      "ShortSelling": 342148.0
+    },
+    {
+      "Date": "2025-09-24",
+      "Open": 1140.0,
+      "High": 1150.0,
+      "Low": 1140.0,
+      "Close": 1148.0,
+      "Volume": 482400,
+      "MarginBuy": 441418.0,
+      "MarginSell": 247366.0,
+      "ShortSelling": 364446.0
+    },
+    {
+      "Date": "2025-09-25",
+      "Open": 1151.0,
+      "High": 1156.0,
+      "Low": 1147.0,
+      "Close": 1154.0,
+      "Volume": 261800,
+      "MarginBuy": 441418.0,
+      "MarginSell": 247366.0,
+      "ShortSelling": 379074.0
+    },
+    {
+      "Date": "2025-09-26",
+      "Open": 1150.0,
+      "High": 1164.0,
+      "Low": 1144.0,
+      "Close": 1164.0,
+      "Volume": 359300,
+      "MarginBuy": 331739.0,
+      "MarginSell": 221237.0,
+      "ShortSelling": 389738.0
+    },
+    {
+      "Date": "2025-09-29",
+      "Open": 1156.0,
+      "High": 1160.0,
+      "Low": 1150.0,
+      "Close": 1152.0,
+      "Volume": 288600,
+      "MarginBuy": 331739.0,
+      "MarginSell": 221237.0,
+      "ShortSelling": 391871.0
+    },
+    {
+      "Date": "2025-09-30",
+      "Open": 1149.0,
+      "High": 1153.0,
+      "Low": 1128.0,
+      "Close": 1137.0,
+      "Volume": 525600,
+      "MarginBuy": 331739.0,
+      "MarginSell": 221237.0,
+      "ShortSelling": 399910.0
+    },
+    {
+      "Date": "2025-10-01",
+      "Open": 1124.0,
+      "High": 1124.0,
+      "Low": 1094.0,
+      "Close": 1098.0,
+      "Volume": 380900,
+      "MarginBuy": 331739.0,
+      "MarginSell": 221237.0,
+      "ShortSelling": 403659.0
+    },
+    {
+      "Date": "2025-10-02",
+      "Open": 1092.0,
+      "High": 1112.0,
+      "Low": 1089.0,
+      "Close": 1112.0,
+      "Volume": 288400,
+      "MarginBuy": 331739.0,
+      "MarginSell": 221237.0,
+      "ShortSelling": 407917.0
+    },
+    {
+      "Date": "2025-10-03",
+      "Open": 1115.0,
+      "High": 1126.0,
+      "Low": 1115.0,
+      "Close": 1125.0,
+      "Volume": 182600,
+      "MarginBuy": 227631.0,
+      "MarginSell": 108065.0,
+      "ShortSelling": 393548.0
+    },
+    {
+      "Date": "2025-10-06",
+      "Open": 1150.0,
+      "High": 1152.0,
+      "Low": 1129.0,
+      "Close": 1136.0,
+      "Volume": 253400,
+      "MarginBuy": 227631.0,
+      "MarginSell": 108065.0,
+      "ShortSelling": 390534.0
+    },
+    {
+      "Date": "2025-10-07",
+      "Open": 1138.0,
+      "High": 1148.0,
+      "Low": 1136.0,
+      "Close": 1142.0,
+      "Volume": 320900,
+      "MarginBuy": 227631.0,
+      "MarginSell": 108065.0,
+      "ShortSelling": 389611.0
+    },
+    {
+      "Date": "2025-10-08",
+      "Open": 1145.0,
+      "High": 1147.0,
+      "Low": 1125.0,
+      "Close": 1128.0,
+      "Volume": 199800,
+      "MarginBuy": 227631.0,
+      "MarginSell": 108065.0,
+      "ShortSelling": 394493.0
+    },
+    {
+      "Date": "2025-10-09",
+      "Open": 1125.0,
+      "High": 1141.0,
+      "Low": 1123.0,
+      "Close": 1141.0,
+      "Volume": 194400,
+      "MarginBuy": 227631.0,
+      "MarginSell": 108065.0,
+      "ShortSelling": 392118.0
+    },
+    {
+      "Date": "2025-10-10",
+      "Open": 1130.0,
+      "High": 1130.0,
+      "Low": 1102.0,
+      "Close": 1105.0,
+      "Volume": 313100,
+      "MarginBuy": 141541.0,
+      "MarginSell": 263331.0,
+      "ShortSelling": 386427.0
+    },
+    {
+      "Date": "2025-10-14",
+      "Open": 1088.0,
+      "High": 1111.0,
+      "Low": 1086.0,
+      "Close": 1100.0,
+      "Volume": 407400,
+      "MarginBuy": 141541.0,
+      "MarginSell": 263331.0,
+      "ShortSelling": 364905.0
+    },
+    {
+      "Date": "2025-10-15",
+      "Open": 1110.0,
+      "High": 1114.0,
+      "Low": 1106.0,
+      "Close": 1111.0,
+      "Volume": 196200,
+      "MarginBuy": 141541.0,
+      "MarginSell": 263331.0,
+      "ShortSelling": 372314.0
+    },
+    {
+      "Date": "2025-10-16",
+      "Open": 1118.0,
+      "High": 1122.0,
+      "Low": 1113.0,
+      "Close": 1121.0,
+      "Volume": 164700,
+      "MarginBuy": 141541.0,
+      "MarginSell": 263331.0,
+      "ShortSelling": 385540.0
+    },
+    {
+      "Date": "2025-10-17",
+      "Open": 1114.0,
+      "High": 1123.0,
+      "Low": 1112.0,
+      "Close": 1122.0,
+      "Volume": 190000,
+      "MarginBuy": 106159.0,
+      "MarginSell": 196150.0,
+      "ShortSelling": 387675.0
+    },
+    {
+      "Date": "2025-10-20",
+      "Open": 1142.0,
+      "High": 1142.0,
+      "Low": 1125.0,
+      "Close": 1131.0,
+      "Volume": 194100,
+      "MarginBuy": 106159.0,
+      "MarginSell": 196150.0,
+      "ShortSelling": 382389.0
+    },
+    {
+      "Date": "2025-10-21",
+      "Open": 1130.0,
+      "High": 1133.0,
+      "Low": 1121.0,
+      "Close": 1124.0,
+      "Volume": 200000,
+      "MarginBuy": 106159.0,
+      "MarginSell": 196150.0,
+      "ShortSelling": 374662.0
+    },
+    {
+      "Date": "2025-10-22",
+      "Open": 1128.0,
+      "High": 1137.0,
+      "Low": 1121.0,
+      "Close": 1135.0,
+      "Volume": 368100,
+      "MarginBuy": 106159.0,
+      "MarginSell": 196150.0,
+      "ShortSelling": 389944.0
+    },
+    {
+      "Date": "2025-10-23",
+      "Open": 1137.0,
+      "High": 1163.0,
+      "Low": 1133.0,
+      "Close": 1163.0,
+      "Volume": 381100,
+      "MarginBuy": 106159.0,
+      "MarginSell": 196150.0,
+      "ShortSelling": 388630.0
+    },
+    {
+      "Date": "2025-10-24",
+      "Open": 1171.0,
+      "High": 1176.0,
+      "Low": 1161.0,
+      "Close": 1169.0,
+      "Volume": 320700,
+      "MarginBuy": 461033.0,
+      "MarginSell": 100586.0,
+      "ShortSelling": 377910.0
+    },
+    {
+      "Date": "2025-10-27",
+      "Open": 1176.0,
+      "High": 1188.0,
+      "Low": 1174.0,
+      "Close": 1188.0,
+      "Volume": 442400,
+      "MarginBuy": 461033.0,
+      "MarginSell": 100586.0,
+      "ShortSelling": 383617.0
+    },
+    {
+      "Date": "2025-10-28",
+      "Open": 1176.0,
+      "High": 1176.0,
+      "Low": 1141.0,
+      "Close": 1149.0,
+      "Volume": 359400,
+      "MarginBuy": 461033.0,
+      "MarginSell": 100586.0,
+      "ShortSelling": 403945.0
+    },
+    {
+      "Date": "2025-10-29",
+      "Open": 1150.0,
+      "High": 1152.0,
+      "Low": 1135.0,
+      "Close": 1135.0,
+      "Volume": 318500,
+      "MarginBuy": 461033.0,
+      "MarginSell": 100586.0,
+      "ShortSelling": 413899.0
+    },
+    {
+      "Date": "2025-10-30",
+      "Open": 1137.0,
+      "High": 1154.0,
+      "Low": 1135.0,
+      "Close": 1148.0,
+      "Volume": 274400,
+      "MarginBuy": 461033.0,
+      "MarginSell": 100586.0,
+      "ShortSelling": 405729.0
+    },
+    {
+      "Date": "2025-10-31",
+      "Open": 1156.0,
+      "High": 1156.0,
+      "Low": 1135.0,
+      "Close": 1145.0,
+      "Volume": 236500,
+      "MarginBuy": 108625.0,
+      "MarginSell": 237782.0,
+      "ShortSelling": 402230.0
+    },
+    {
+      "Date": "2025-11-04",
+      "Open": 1138.0,
+      "High": 1158.0,
+      "Low": 1135.0,
+      "Close": 1142.0,
+      "Volume": 220600,
+      "MarginBuy": 108625.0,
+      "MarginSell": 237782.0,
+      "ShortSelling": 401553.0
+    },
+    {
+      "Date": "2025-11-05",
+      "Open": 1142.0,
+      "High": 1145.0,
+      "Low": 1114.0,
+      "Close": 1131.0,
+      "Volume": 297400,
+      "MarginBuy": 108625.0,
+      "MarginSell": 237782.0,
+      "ShortSelling": 415334.0
+    },
+    {
+      "Date": "2025-11-06",
+      "Open": 1128.0,
+      "High": 1146.0,
+      "Low": 1126.0,
+      "Close": 1142.0,
+      "Volume": 371300,
+      "MarginBuy": 108625.0,
+      "MarginSell": 237782.0,
+      "ShortSelling": 415252.0
+    },
+    {
+      "Date": "2025-11-07",
+      "Open": 1134.0,
+      "High": 1143.0,
+      "Low": 1123.0,
+      "Close": 1134.0,
+      "Volume": 376700,
+      "MarginBuy": 129502.0,
+      "MarginSell": 179290.0,
+      "ShortSelling": 415507.0
+    },
+    {
+      "Date": "2025-11-10",
+      "Open": 1152.0,
+      "High": 1240.0,
+      "Low": 1137.0,
+      "Close": 1223.0,
+      "Volume": 2511400,
+      "MarginBuy": 129502.0,
+      "MarginSell": 179290.0,
+      "ShortSelling": 406125.0
+    },
+    {
+      "Date": "2025-11-11",
+      "Open": 1250.0,
+      "High": 1253.0,
+      "Low": 1202.0,
+      "Close": 1212.0,
+      "Volume": 833000,
+      "MarginBuy": 129502.0,
+      "MarginSell": 179290.0,
+      "ShortSelling": 426151.0
+    },
+    {
+      "Date": "2025-11-12",
+      "Open": 1215.0,
+      "High": 1230.0,
+      "Low": 1209.0,
+      "Close": 1225.0,
+      "Volume": 589200,
+      "MarginBuy": 129502.0,
+      "MarginSell": 179290.0,
+      "ShortSelling": 424559.0
+    },
+    {
+      "Date": "2025-11-13",
+      "Open": 1221.0,
+      "High": 1232.0,
+      "Low": 1210.0,
+      "Close": 1222.0,
+      "Volume": 530200,
+      "MarginBuy": 129502.0,
+      "MarginSell": 179290.0,
+      "ShortSelling": 440485.0
+    },
+    {
+      "Date": "2025-11-14",
+      "Open": 1219.0,
+      "High": 1241.0,
+      "Low": 1217.0,
+      "Close": 1237.0,
+      "Volume": 596200,
+      "MarginBuy": 216982.0,
+      "MarginSell": 145303.0,
+      "ShortSelling": 450104.0
+    },
+    {
+      "Date": "2025-11-17",
+      "Open": 1232.0,
+      "High": 1234.0,
+      "Low": 1207.0,
+      "Close": 1207.0,
+      "Volume": 386900,
+      "MarginBuy": 216982.0,
+      "MarginSell": 145303.0,
+      "ShortSelling": 460518.0
+    },
+    {
+      "Date": "2025-11-18",
+      "Open": 1203.0,
+      "High": 1205.0,
+      "Low": 1180.0,
+      "Close": 1180.0,
+      "Volume": 387600,
+      "MarginBuy": 216982.0,
+      "MarginSell": 145303.0,
+      "ShortSelling": 462168.0
+    },
+    {
+      "Date": "2025-11-19",
+      "Open": 1178.0,
+      "High": 1183.0,
+      "Low": 1146.0,
+      "Close": 1149.0,
+      "Volume": 423900,
+      "MarginBuy": 216982.0,
+      "MarginSell": 145303.0,
+      "ShortSelling": 464200.0
+    },
+    {
+      "Date": "2025-11-20",
+      "Open": 1165.0,
+      "High": 1180.0,
+      "Low": 1161.0,
+      "Close": 1165.0,
+      "Volume": 329400,
+      "MarginBuy": 216982.0,
+      "MarginSell": 145303.0,
+      "ShortSelling": 443366.0
+    },
+    {
+      "Date": "2025-11-21",
+      "Open": 1155.0,
+      "High": 1184.0,
+      "Low": 1155.0,
+      "Close": 1180.0,
+      "Volume": 438900,
+      "MarginBuy": 276427.0,
+      "MarginSell": 290562.0,
+      "ShortSelling": 445335.0
+    },
+    {
+      "Date": "2025-11-25",
+      "Open": 1191.0,
+      "High": 1204.0,
+      "Low": 1182.0,
+      "Close": 1183.0,
+      "Volume": 372700,
+      "MarginBuy": 276427.0,
+      "MarginSell": 290562.0,
+      "ShortSelling": 449298.0
+    },
+    {
+      "Date": "2025-11-26",
+      "Open": 1188.0,
+      "High": 1199.0,
+      "Low": 1183.0,
+      "Close": 1194.0,
+      "Volume": 310200,
+      "MarginBuy": 276427.0,
+      "MarginSell": 290562.0,
+      "ShortSelling": 449902.0
+    },
+    {
+      "Date": "2025-11-27",
+      "Open": 1192.0,
+      "High": 1199.0,
+      "Low": 1187.0,
+      "Close": 1190.0,
+      "Volume": 294800,
+      "MarginBuy": 276427.0,
+      "MarginSell": 290562.0,
+      "ShortSelling": 460086.0
+    },
+    {
+      "Date": "2025-11-28",
+      "Open": 1190.0,
+      "High": 1213.0,
+      "Low": 1188.0,
+      "Close": 1207.0,
+      "Volume": 430300,
+      "MarginBuy": 263621.0,
+      "MarginSell": 176817.0,
+      "ShortSelling": 462432.0
+    },
+    {
+      "Date": "2025-12-01",
+      "Open": 1220.0,
+      "High": 1221.0,
+      "Low": 1196.0,
+      "Close": 1196.0,
+      "Volume": 348200,
+      "MarginBuy": 263621.0,
+      "MarginSell": 176817.0,
+      "ShortSelling": 459771.0
+    },
+    {
+      "Date": "2025-12-02",
+      "Open": 1205.0,
+      "High": 1217.0,
+      "Low": 1199.0,
+      "Close": 1210.0,
+      "Volume": 271700,
+      "MarginBuy": 263621.0,
+      "MarginSell": 176817.0,
+      "ShortSelling": 465025.0
+    },
+    {
+      "Date": "2025-12-03",
+      "Open": 1214.0,
+      "High": 1220.0,
+      "Low": 1207.0,
+      "Close": 1218.0,
+      "Volume": 357900,
+      "MarginBuy": 263621.0,
+      "MarginSell": 176817.0,
+      "ShortSelling": 460129.0
+    },
+    {
+      "Date": "2025-12-04",
+      "Open": 1213.0,
+      "High": 1228.0,
+      "Low": 1210.0,
+      "Close": 1225.0,
+      "Volume": 298600,
+      "MarginBuy": 263621.0,
+      "MarginSell": 176817.0,
+      "ShortSelling": 452516.0
+    },
+    {
+      "Date": "2025-12-05",
+      "Open": 1214.0,
+      "High": 1217.0,
+      "Low": 1193.0,
+      "Close": 1200.0,
+      "Volume": 304200,
+      "MarginBuy": 381036.0,
+      "MarginSell": 260927.0,
+      "ShortSelling": 452277.0
+    },
+    {
+      "Date": "2025-12-08",
+      "Open": 1201.0,
+      "High": 1215.0,
+      "Low": 1201.0,
+      "Close": 1213.0,
+      "Volume": 322400,
+      "MarginBuy": 381036.0,
+      "MarginSell": 260927.0,
+      "ShortSelling": 442106.0
+    },
+    {
+      "Date": "2025-12-09",
+      "Open": 1216.0,
+      "High": 1223.0,
+      "Low": 1211.0,
+      "Close": 1217.0,
+      "Volume": 230900,
+      "MarginBuy": 381036.0,
+      "MarginSell": 260927.0,
+      "ShortSelling": 419273.0
+    },
+    {
+      "Date": "2025-12-10",
+      "Open": 1225.0,
+      "High": 1225.0,
+      "Low": 1212.0,
+      "Close": 1213.0,
+      "Volume": 356500,
+      "MarginBuy": 381036.0,
+      "MarginSell": 260927.0,
+      "ShortSelling": 424581.0
+    },
+    {
+      "Date": "2025-12-11",
+      "Open": 1240.0,
+      "High": 1243.0,
+      "Low": 1193.0,
+      "Close": 1195.0,
+      "Volume": 294600,
+      "MarginBuy": 381036.0,
+      "MarginSell": 260927.0,
+      "ShortSelling": 432707.0
+    },
+    {
+      "Date": "2025-12-12",
+      "Open": 1205.0,
+      "High": 1215.0,
+      "Low": 1197.0,
+      "Close": 1209.0,
+      "Volume": 277400,
+      "MarginBuy": 121362.0,
+      "MarginSell": 135197.0,
+      "ShortSelling": 435289.0
+    },
+    {
+      "Date": "2025-12-15",
+      "Open": 1210.0,
+      "High": 1224.0,
+      "Low": 1206.0,
+      "Close": 1223.0,
+      "Volume": 234600,
+      "MarginBuy": 121362.0,
+      "MarginSell": 135197.0,
+      "ShortSelling": 452950.0
+    },
+    {
+      "Date": "2025-12-16",
+      "Open": 1228.0,
+      "High": 1228.0,
+      "Low": 1201.0,
+      "Close": 1201.0,
+      "Volume": 301600,
+      "MarginBuy": 121362.0,
+      "MarginSell": 135197.0,
+      "ShortSelling": 457173.0
+    },
+    {
+      "Date": "2025-12-17",
+      "Open": 1206.0,
+      "High": 1209.0,
+      "Low": 1193.0,
+      "Close": 1203.0,
+      "Volume": 204100,
+      "MarginBuy": 121362.0,
+      "MarginSell": 135197.0,
+      "ShortSelling": 471685.0
+    },
+    {
+      "Date": "2025-12-18",
+      "Open": 1210.0,
+      "High": 1213.0,
+      "Low": 1197.0,
+      "Close": 1213.0,
+      "Volume": 163100,
+      "MarginBuy": 121362.0,
+      "MarginSell": 135197.0,
+      "ShortSelling": 461316.0
+    },
+    {
+      "Date": "2025-12-19",
+      "Open": 1212.0,
+      "High": 1224.0,
+      "Low": 1210.0,
+      "Close": 1217.0,
+      "Volume": 315600,
+      "MarginBuy": 480766.0,
+      "MarginSell": 269321.0,
+      "ShortSelling": 467102.0
+    },
+    {
+      "Date": "2025-12-22",
+      "Open": 1228.0,
+      "High": 1241.0,
+      "Low": 1223.0,
+      "Close": 1239.0,
+      "Volume": 401500,
+      "MarginBuy": 480766.0,
+      "MarginSell": 269321.0,
+      "ShortSelling": 469055.0
+    },
+    {
+      "Date": "2025-12-23",
+      "Open": 1242.0,
+      "High": 1257.0,
+      "Low": 1235.0,
+      "Close": 1255.0,
+      "Volume": 346100,
+      "MarginBuy": 480766.0,
+      "MarginSell": 269321.0,
+      "ShortSelling": 472130.0
+    },
+    {
+      "Date": "2025-12-24",
+      "Open": 1259.0,
+      "High": 1264.0,
+      "Low": 1243.0,
+      "Close": 1247.0,
+      "Volume": 261700,
+      "MarginBuy": 480766.0,
+      "MarginSell": 269321.0,
+      "ShortSelling": 464661.0
+    },
+    {
+      "Date": "2025-12-25",
+      "Open": 1259.0,
+      "High": 1259.0,
+      "Low": 1244.0,
+      "Close": 1254.0,
+      "Volume": 184000,
+      "MarginBuy": 480766.0,
+      "MarginSell": 269321.0,
+      "ShortSelling": 459592.0
+    },
+    {
+      "Date": "2025-12-26",
+      "Open": 1260.0,
+      "High": 1267.0,
+      "Low": 1241.0,
+      "Close": 1246.0,
+      "Volume": 238200,
+      "MarginBuy": 349486.0,
+      "MarginSell": 67075.0,
+      "ShortSelling": 452234.0
+    },
+    {
+      "Date": "2025-12-29",
+      "Open": 1258.0,
+      "High": 1267.0,
+      "Low": 1254.0,
+      "Close": 1263.0,
+      "Volume": 245700,
+      "MarginBuy": 349486.0,
+      "MarginSell": 67075.0,
+      "ShortSelling": 453836.0
+    },
+    {
+      "Date": "2025-12-30",
+      "Open": 1256.0,
+      "High": 1272.0,
+      "Low": 1253.0,
+      "Close": 1260.0,
+      "Volume": 211500,
+      "MarginBuy": 349486.0,
+      "MarginSell": 67075.0,
+      "ShortSelling": 475596.0
+    },
+    {
+      "Date": "2026-01-05",
+      "Open": 1265.0,
+      "High": 1272.0,
+      "Low": 1255.0,
+      "Close": 1261.0,
+      "Volume": 298400,
+      "MarginBuy": 376947.0,
+      "MarginSell": 90062.0,
+      "ShortSelling": 458353.0
+    },
+    {
+      "Date": "2026-01-06",
+      "Open": 1260.0,
+      "High": 1271.0,
+      "Low": 1249.0,
+      "Close": 1271.0,
+      "Volume": 322900,
+      "MarginBuy": 376947.0,
+      "MarginSell": 90062.0,
+      "ShortSelling": 452446.0
+    },
+    {
+      "Date": "2026-01-07",
+      "Open": 1270.0,
+      "High": 1295.0,
+      "Low": 1261.0,
+      "Close": 1293.0,
+      "Volume": 392200,
+      "MarginBuy": 376947.0,
+      "MarginSell": 90062.0,
+      "ShortSelling": 458500.0
+    },
+    {
+      "Date": "2026-01-08",
+      "Open": 1287.0,
+      "High": 1296.0,
+      "Low": 1276.0,
+      "Close": 1280.0,
+      "Volume": 245900,
+      "MarginBuy": 376947.0,
+      "MarginSell": 90062.0,
+      "ShortSelling": 465241.0
+    },
+    {
+      "Date": "2026-01-09",
+      "Open": 1283.0,
+      "High": 1295.0,
+      "Low": 1273.0,
+      "Close": 1275.0,
+      "Volume": 273900,
+      "MarginBuy": 481821.0,
+      "MarginSell": 205817.0,
+      "ShortSelling": 479389.0
+    },
+    {
+      "Date": "2026-01-13",
+      "Open": 1295.0,
+      "High": 1297.0,
+      "Low": 1278.0,
+      "Close": 1293.0,
+      "Volume": 299700,
+      "MarginBuy": 481821.0,
+      "MarginSell": 205817.0,
+      "ShortSelling": 455616.0
+    },
+    {
+      "Date": "2026-01-14",
+      "Open": 1299.0,
+      "High": 1329.0,
+      "Low": 1298.0,
+      "Close": 1328.0,
+      "Volume": 448200,
+      "MarginBuy": 481821.0,
+      "MarginSell": 205817.0,
+      "ShortSelling": 446180.0
+    },
+    {
+      "Date": "2026-01-15",
+      "Open": 1328.0,
+      "High": 1340.0,
+      "Low": 1316.0,
+      "Close": 1339.0,
+      "Volume": 387800,
+      "MarginBuy": 481821.0,
+      "MarginSell": 205817.0,
+      "ShortSelling": 451413.0
+    },
+    {
+      "Date": "2026-01-16",
+      "Open": 1340.0,
+      "High": 1355.0,
+      "Low": 1326.0,
+      "Close": 1353.0,
+      "Volume": 416300,
+      "MarginBuy": 220999.0,
+      "MarginSell": 269429.0,
+      "ShortSelling": 463394.0
+    },
+    {
+      "Date": "2026-01-19",
+      "Open": 1346.0,
+      "High": 1350.0,
+      "Low": 1321.0,
+      "Close": 1341.0,
+      "Volume": 241100,
+      "MarginBuy": 220999.0,
+      "MarginSell": 269429.0,
+      "ShortSelling": 468419.0
+    },
+    {
+      "Date": "2026-01-20",
+      "Open": 1331.0,
+      "High": 1333.0,
+      "Low": 1312.0,
+      "Close": 1320.0,
+      "Volume": 328000,
+      "MarginBuy": 220999.0,
+      "MarginSell": 269429.0,
+      "ShortSelling": 469780.0
+    },
+    {
+      "Date": "2026-01-21",
+      "Open": 1300.0,
+      "High": 1313.0,
+      "Low": 1294.0,
+      "Close": 1313.0,
+      "Volume": 344100,
+      "MarginBuy": 220999.0,
+      "MarginSell": 269429.0,
+      "ShortSelling": 469042.0
+    },
+    {
+      "Date": "2026-01-22",
+      "Open": 1329.0,
+      "High": 1341.0,
+      "Low": 1324.0,
+      "Close": 1338.0,
+      "Volume": 297900,
+      "MarginBuy": 220999.0,
+      "MarginSell": 269429.0,
+      "ShortSelling": 468374.0
+    },
+    {
+      "Date": "2026-01-23",
+      "Open": 1344.0,
+      "High": 1353.0,
+      "Low": 1325.0,
+      "Close": 1353.0,
+      "Volume": 336600,
+      "MarginBuy": 322691.0,
+      "MarginSell": 119554.0,
+      "ShortSelling": 460118.0
+    }
+  ],
+  "volume_profile": [
+    {
+      "price_low": 815.463,
+      "price_high": 826.74,
+      "volume": 709100
+    },
+    {
+      "price_low": 826.74,
+      "price_high": 837.48,
+      "volume": 1610500
+    },
+    {
+      "price_low": 837.48,
+      "price_high": 848.22,
+      "volume": 749100
+    },
+    {
+      "price_low": 848.22,
+      "price_high": 858.96,
+      "volume": 1817700
+    },
+    {
+      "price_low": 858.96,
+      "price_high": 869.7,
+      "volume": 719400
+    },
+    {
+      "price_low": 869.7,
+      "price_high": 880.44,
+      "volume": 1043100
+    },
+    {
+      "price_low": 880.44,
+      "price_high": 891.18,
+      "volume": 3776900
+    },
+    {
+      "price_low": 891.18,
+      "price_high": 901.92,
+      "volume": 4151900
+    },
+    {
+      "price_low": 901.92,
+      "price_high": 912.66,
+      "volume": 4277500
+    },
+    {
+      "price_low": 912.66,
+      "price_high": 923.4,
+      "volume": 2914400
+    },
+    {
+      "price_low": 923.4,
+      "price_high": 934.14,
+      "volume": 5429100
+    },
+    {
+      "price_low": 934.14,
+      "price_high": 944.88,
+      "volume": 4880600
+    },
+    {
+      "price_low": 944.88,
+      "price_high": 955.62,
+      "volume": 2141700
+    },
+    {
+      "price_low": 955.62,
+      "price_high": 966.36,
+      "volume": 4254000
+    },
+    {
+      "price_low": 966.36,
+      "price_high": 977.1,
+      "volume": 977800
+    },
+    {
+      "price_low": 977.1,
+      "price_high": 987.84,
+      "volume": 842500
+    },
+    {
+      "price_low": 987.84,
+      "price_high": 998.58,
+      "volume": 296600
+    },
+    {
+      "price_low": 998.58,
+      "price_high": 1009.32,
+      "volume": 930400
+    },
+    {
+      "price_low": 1009.32,
+      "price_high": 1020.06,
+      "volume": 330000
+    },
+    {
+      "price_low": 1020.06,
+      "price_high": 1030.8,
+      "volume": 586000
+    },
+    {
+      "price_low": 1030.8,
+      "price_high": 1041.54,
+      "volume": 2802100
+    },
+    {
+      "price_low": 1041.54,
+      "price_high": 1052.28,
+      "volume": 1278200
+    },
+    {
+      "price_low": 1052.28,
+      "price_high": 1063.02,
+      "volume": 530400
+    },
+    {
+      "price_low": 1063.02,
+      "price_high": 1073.76,
+      "volume": 770500
+    },
+    {
+      "price_low": 1073.76,
+      "price_high": 1084.5,
+      "volume": 890400
+    },
+    {
+      "price_low": 1084.5,
+      "price_high": 1095.24,
+      "volume": 704800
+    },
+    {
+      "price_low": 1095.24,
+      "price_high": 1105.98,
+      "volume": 1470500
+    },
+    {
+      "price_low": 1105.98,
+      "price_high": 1116.72,
+      "volume": 1437100
+    },
+    {
+      "price_low": 1116.72,
+      "price_high": 1127.46,
+      "volume": 2035800
+    },
+    {
+      "price_low": 1127.46,
+      "price_high": 1138.2,
+      "volume": 2882200
+    },
+    {
+      "price_low": 1138.2,
+      "price_high": 1148.94,
+      "volume": 3085500
+    },
+    {
+      "price_low": 1148.94,
+      "price_high": 1159.68,
+      "volume": 1759900
+    },
+    {
+      "price_low": 1159.68,
+      "price_high": 1170.42,
+      "volume": 2788600
+    },
+    {
+      "price_low": 1170.42,
+      "price_high": 1181.16,
+      "volume": 1598300
+    },
+    {
+      "price_low": 1181.16,
+      "price_high": 1191.9,
+      "volume": 1109900
+    },
+    {
+      "price_low": 1191.9,
+      "price_high": 1202.64,
+      "volume": 1558800
+    },
+    {
+      "price_low": 1202.64,
+      "price_high": 1213.38,
+      "volume": 3245400
+    },
+    {
+      "price_low": 1213.38,
+      "price_high": 1224.12,
+      "volume": 4180600
+    },
+    {
+      "price_low": 1224.12,
+      "price_high": 1234.86,
+      "volume": 887800
+    },
+    {
+      "price_low": 1234.86,
+      "price_high": 1245.6,
+      "volume": 997700
+    },
+    {
+      "price_low": 1245.6,
+      "price_high": 1256.34,
+      "volume": 1030000
+    },
+    {
+      "price_low": 1256.34,
+      "price_high": 1267.08,
+      "volume": 755600
+    },
+    {
+      "price_low": 1267.08,
+      "price_high": 1277.82,
+      "volume": 596800
+    },
+    {
+      "price_low": 1277.82,
+      "price_high": 1288.56,
+      "volume": 245900
+    },
+    {
+      "price_low": 1288.56,
+      "price_high": 1299.3,
+      "volume": 691900
+    },
+    {
+      "price_low": 1299.3,
+      "price_high": 1310.04,
+      "volume": 0
+    },
+    {
+      "price_low": 1310.04,
+      "price_high": 1320.78,
+      "volume": 672100
+    },
+    {
+      "price_low": 1320.78,
+      "price_high": 1331.52,
+      "volume": 448200
+    },
+    {
+      "price_low": 1331.52,
+      "price_high": 1342.26,
+      "volume": 926800
+    },
+    {
+      "price_low": 1342.26,
+      "price_high": 1353.0,
+      "volume": 752900
+    }
+  ]
+}
