@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株価・信用取引チャート</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 株価・信用取引チャート</h1>
+            <p class="subtitle">株価と信用取引データ(機関空売り、信用買い、信用売り)を可視化</p>
+        </header>
+
+        <div class="controls">
+            <div class="input-group">
+                <label for="stockCode">銘柄コード</label>
+                <input 
+                    type="text" 
+                    id="stockCode" 
+                    placeholder="例: 6920" 
+                    value="6920"
+                >
+                <button id="loadBtn" class="btn-primary">チャート表示</button>
+            </div>
+            
+            <div class="stock-info" id="stockInfo" style="display: none;">
+                <div class="info-item">
+                    <span class="label">銘柄名:</span>
+                    <span class="value" id="stockName">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">セクター:</span>
+                    <span class="value" id="stockSector">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">期間:</span>
+                    <span class="value" id="stockPeriod">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="chart"></div>
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>データを読み込み中...</p>
+            </div>
+            <div id="error" class="error" style="display: none;">
+                <p>データの読み込みに失敗しました</p>
+                <p class="error-detail" id="errorDetail"></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Data source: Yahoo Finance (yfinance), JPX</p>
+            <p>このツールは情報提供のみを目的としています</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
