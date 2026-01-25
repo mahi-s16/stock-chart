@@ -40,7 +40,9 @@ def fetch_margin_data(stock_code: str) -> pd.DataFrame:
         
         # ランダムなデータ生成 (実際にはJPXから取得)
         import numpy as np
-        np.random.seed(int(stock_code))
+        # 銘柄コードからシード値を生成(文字列対応)
+        seed_value = sum(ord(c) for c in stock_code) if stock_code else 0
+        np.random.seed(seed_value)
         
         df = pd.DataFrame({
             'Date': dates.strftime('%Y-%m-%d'),
