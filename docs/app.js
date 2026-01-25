@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const stockCode = stockCodeInput.value.trim();
         if (stockCode) {
             loadStockData(stockCode);
+        } else {
+            alert('銘柄コードを入力してください');
         }
     });
 
@@ -20,9 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
             loadBtn.click();
         }
     });
-
-    // デフォルトデータを読み込み
-    loadStockData('6920');
 });
 
 /**

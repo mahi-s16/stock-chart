@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -20,15 +22,10 @@
         <div class="controls">
             <div class="input-group">
                 <label for="stockCode">銘柄コード</label>
-                <input 
-                    type="text" 
-                    id="stockCode" 
-                    placeholder="例: 6920" 
-                    value="6920"
-                >
+                <input type="text" id="stockCode" placeholder="例: 6920, 285A, 7203">
                 <button id="loadBtn" class="btn-primary">チャート表示</button>
             </div>
-            
+
             <div class="stock-info" id="stockInfo" style="display: none;">
                 <div class="info-item">
                     <span class="label">銘柄名:</span>
@@ -65,4 +62,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
