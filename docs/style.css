@@ -67,6 +67,141 @@ header h1 {
     animation: fadeInUp 0.6s ease-out;
 }
 
+/* テーマセクション */
+.themes-section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.themes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.theme-card {
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.theme-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-primary);
+}
+
+.theme-card .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.theme-card .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.theme-card .description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.theme-card .count {
+    font-size: 0.85rem;
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+/* 銘柄一覧セクション */
+.stocks-section {
+    margin-bottom: 2rem;
+    animation: fadeIn 0.6s ease-out;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section-header h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.btn-secondary {
+    padding: 0.5rem 1.5rem;
+    background: var(--bg-tertiary);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--bg-secondary);
+    border-color: var(--accent-primary);
+}
+
+.stocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.stock-card {
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.stock-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent-primary);
+    background: linear-gradient(135deg, rgba(168, 181, 255, 0.05) 0%, rgba(197, 179, 255, 0.05) 100%);
+}
+
+.stock-card .code {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    margin-bottom: 0.25rem;
+}
+
+.stock-card .name {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
 /* コントロール */
 .controls {
     background: var(--bg-secondary);
@@ -293,6 +428,59 @@ footer p {
         font-size: 0.875rem;
     }
 
+    /* テーマセクション - モバイル */
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .themes-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .theme-card {
+        padding: 1.5rem;
+    }
+
+    .theme-card .icon {
+        font-size: 2.5rem;
+    }
+
+    .theme-card .name {
+        font-size: 1.1rem;
+    }
+
+    /* 銘柄一覧 - モバイル */
+    .section-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .section-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .btn-secondary {
+        width: 100%;
+    }
+
+    .stocks-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .stock-card {
+        padding: 0.75rem;
+    }
+
+    .stock-card .code {
+        font-size: 1rem;
+    }
+
+    .stock-card .name {
+        font-size: 0.75rem;
+    }
+
     .controls {
         gap: 1rem;
     }
@@ -339,5 +527,82 @@ footer p {
     footer {
         padding: 1.5rem 0;
         font-size: 0.75rem;
+    }
+}
+
+/* 期間選択ボタン */
+.period-selector {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.period-btn {
+    padding: 0.5rem 1.25rem;
+    background: var(--bg-tertiary);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.period-btn:hover {
+    background: var(--bg-secondary);
+    border-color: var(--accent-primary);
+    transform: translateY(-2px);
+}
+
+.period-btn.active {
+    background: var(--gradient-primary);
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+/* チャートタイプ切り替えボタン */
+.chart-type-selector {
+    display: flex;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chart-type-btn {
+    padding: 0.6rem 1.5rem;
+    background: var(--bg-tertiary);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chart-type-btn:hover {
+    background: var(--bg-secondary);
+    border-color: var(--accent-secondary);
+    transform: translateY(-2px);
+}
+
+.chart-type-btn.active {
+    background: var(--gradient-secondary);
+    border-color: var(--accent-secondary);
+    box-shadow: var(--shadow-glow);
+}
+
+@media (max-width: 768px) {
+    .chart-type-selector {
+        gap: 0.5rem;
+    }
+
+    .chart-type-btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.85rem;
     }
 }

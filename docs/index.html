@@ -19,13 +19,26 @@
             <p class="subtitle">株価と信用取引データ(機関空売り、信用買い、信用売り)を可視化</p>
         </header>
 
-        <div class="controls">
-            <div class="input-group">
-                <label for="stockCode">銘柄コード</label>
-                <input type="text" id="stockCode" placeholder="例: 6920, 285A, 7203">
-                <button id="loadBtn" class="btn-primary">チャート表示</button>
+        <!-- テーマ選択セクション -->
+        <div class="themes-section">
+            <h2 class="section-title">📊 テーマ別銘柄</h2>
+            <div id="themesGrid" class="themes-grid">
+                <!-- テーマカードはJavaScriptで動的に生成 -->
             </div>
+        </div>
 
+        <!-- 銘柄一覧セクション -->
+        <div id="stocksSection" class="stocks-section" style="display: none;">
+            <div class="section-header">
+                <h3 id="selectedThemeName"></h3>
+                <button id="backToThemes" class="btn-secondary">← テーマ一覧に戻る</button>
+            </div>
+            <div id="stocksGrid" class="stocks-grid">
+                <!-- 銘柄カードはJavaScriptで動的に生成 -->
+            </div>
+        </div>
+
+        <div class="chart-container">
             <div class="stock-info" id="stockInfo" style="display: none;">
                 <div class="info-item">
                     <span class="label">銘柄名:</span>
@@ -40,9 +53,22 @@
                     <span class="value" id="stockPeriod">-</span>
                 </div>
             </div>
-        </div>
 
-        <div class="chart-container">
+            <!-- 期間選択ボタン -->
+            <div class="period-selector" style="display: none;">
+                <button class="period-btn active" data-period="all">全期間</button>
+                <button class="period-btn" data-period="1y">1年</button>
+                <button class="period-btn" data-period="6m">6ヶ月</button>
+                <button class="period-btn" data-period="3m">3ヶ月</button>
+                <button class="period-btn" data-period="1m">1ヶ月</button>
+            </div>
+
+            <!-- チャートタイプ切り替えボタン -->
+            <div class="chart-type-selector" style="display: none;">
+                <button class="chart-type-btn active" data-chart-type="margin">株価・信用取引</button>
+                <button class="chart-type-btn" data-chart-type="ma">株価・移動平均線・出来高</button>
+            </div>
+
             <div id="chart"></div>
             <div id="loading" class="loading" style="display: none;">
                 <div class="spinner"></div>
