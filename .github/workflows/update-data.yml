@@ -48,10 +48,3 @@ jobs:
             git commit -m "Update stock data - $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
-      
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./stock_chart/docs
-          publish_branch: gh-pages
