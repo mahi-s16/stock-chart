@@ -63,6 +63,20 @@ def get_stock_info(stock_code: str) -> dict:
     Returns:
         銘柄情報の辞書
     """
+    # 日本語銘柄名マッピング
+    STOCK_NAMES_JP = {
+        '6920': 'レーザーテック',
+        '7203': 'トヨタ自動車',
+        '9984': 'ソフトバンクグループ',
+        '6758': 'ソニーグループ',
+        '9983': 'ファーストリテイリング',
+        '6861': 'キーエンス',
+        '4063': '信越化学工業',
+        '6954': 'ファナック',
+        '4568': '第一三共',
+        '6981': '村田製作所',
+    }
+    
     try:
         if not stock_code.endswith('.T'):
             stock_code = f"{stock_code}.T"
@@ -70,17 +84,24 @@ def get_stock_info(stock_code: str) -> dict:
         ticker = yf.Ticker(stock_code)
         info = ticker.info
         
+        # 銘柄コード(4桁)を取得
+        code_4digit = stock_code.replace('.T', '').zfill(4)
+        
+        # 日本語名があればそれを使用、なければ英語名
+        japanese_name = STOCK_NAMES_JP.get(code_4digit, info.get('longName', info.get('shortName', 'Unknown')))
+        
         return {
-            'code': stock_code.replace('.T', ''),
-            'name': info.get('longName', info.get('shortName', 'Unknown')),
+            'code': code_4digit,
+            'name': japanese_name,
             'sector': info.get('sector', 'Unknown'),
             'industry': info.get('industry', 'Unknown')
         }
     except Exception as e:
         print(f"Error fetching stock info: {e}")
+        code_4digit = stock_code.replace('.T', '').zfill(4)
         return {
-            'code': stock_code.replace('.T', ''),
-            'name': 'Unknown',
+            'code': code_4digit,
+            'name': STOCK_NAMES_JP.get(code_4digit, 'Unknown'),
             'sector': 'Unknown',
             'industry': 'Unknown'
         }
