@@ -75,6 +75,31 @@ def get_stock_info(stock_code: str) -> dict:
         '6954': 'ファナック',
         '4568': '第一三共',
         '6981': '村田製作所',
+        '8035': '東京エレクトロン',
+        '4519': '中外製薬',
+        '4502': '武田薬品工業',
+        '6098': 'リクルートホールディングス',
+        '4661': 'オリエンタルランド',
+        '6501': '日立製作所',
+        '6902': 'デンソー',
+        '9432': '日本電信電話',
+        '8306': '三菱UFJフィナンシャル・グループ',
+        '8316': '三井住友フィナンシャルグループ',
+    }
+    
+    # セクターの日本語マッピング
+    SECTOR_NAMES_JP = {
+        'Technology': 'テクノロジー',
+        'Consumer Cyclical': '一般消費財',
+        'Healthcare': 'ヘルスケア',
+        'Industrials': '資本財',
+        'Financial Services': '金融',
+        'Communication Services': '通信サービス',
+        'Consumer Defensive': '生活必需品',
+        'Energy': 'エネルギー',
+        'Basic Materials': '素材',
+        'Real Estate': '不動産',
+        'Utilities': '公益事業',
     }
     
     try:
@@ -90,10 +115,14 @@ def get_stock_info(stock_code: str) -> dict:
         # 日本語名があればそれを使用、なければ英語名
         japanese_name = STOCK_NAMES_JP.get(code_4digit, info.get('longName', info.get('shortName', 'Unknown')))
         
+        # セクターを日本語に変換
+        sector_en = info.get('sector', 'Unknown')
+        sector_jp = SECTOR_NAMES_JP.get(sector_en, sector_en)
+        
         return {
             'code': code_4digit,
             'name': japanese_name,
-            'sector': info.get('sector', 'Unknown'),
+            'sector': sector_jp,
             'industry': info.get('industry', 'Unknown')
         }
     except Exception as e:
