@@ -184,23 +184,23 @@ function renderChart(data) {
             text: `${data.stock_name} (${data.stock_code}) - 株価・信用取引チャート`,
             font: {
                 size: 20,
-                color: '#e8eaf0'
+                color: '#2d3748'
             }
         },
-        paper_bgcolor: '#242938',
-        plot_bgcolor: '#2d3348',
+        paper_bgcolor: '#ffffff',
+        plot_bgcolor: '#f5f7fa',
         font: {
-            color: '#b4b9c9'
+            color: '#718096'
         },
         xaxis: {
             title: '日付',
-            gridcolor: '#3d4458',
+            gridcolor: '#e2e8f0',
             showgrid: true
         },
         yaxis: {
             title: '株価 (円)',
             side: 'left',
-            gridcolor: '#3d4458',
+            gridcolor: '#e2e8f0',
             showgrid: true,
             tickformat: ',.0f'
         },
@@ -215,8 +215,8 @@ function renderChart(data) {
         legend: {
             x: 0.01,
             y: 0.99,
-            bgcolor: 'rgba(36, 41, 56, 0.9)',
-            bordercolor: '#3d4458',
+            bgcolor: 'rgba(255, 255, 255, 0.95)',
+            bordercolor: '#e2e8f0',
             borderwidth: 1
         },
         hovermode: 'x unified',
