@@ -37,6 +37,17 @@ def generate_themes():
     stock_mapping = config.get('stock_mapping', {})
     theme_order = config.get('theme_order', [])
     
+    # Nikkei 225 (All) には公式リストにある銘柄のみ追加するためのリストを読み込み
+    try:
+        with open(script_dir / 'nikkei225_stocks.json', 'r') as f:
+            nikkei_list = json.load(f).get('stocks', [])
+            nikkei_codes = set(s['code'] for s in nikkei_list)
+    except Exception as e:
+        print(f"Error loading nikkei list: {e}")
+        nikkei_codes = set()
+
+    print(f"Loaded {len(nikkei_codes)} Nikkei 225 stocks from definition.")
+
     print(f"Scanning data directory: {data_dir}")
     
     if not data_dir.exists():
@@ -65,11 +76,11 @@ def generate_themes():
                     "name": name
                 }
                 
-                # Nikkei 225 (All) には全て追加
-                if 'all' in theme_stocks:
+                # Nikkei 225 (All) には公式リストにある場合のみ追加
+                if 'all' in theme_stocks and code in nikkei_codes:
                     theme_stocks['all'].append(stock_info)
                 
-                # カスタムマッピングに基づいて追加
+                # カスタムマッピングに基づいて追加 (こちらはリスト外でもOK)
                 mapped_theme_id = stock_mapping.get(code)
                 if mapped_theme_id and mapped_theme_id in theme_stocks:
                     theme_stocks[mapped_theme_id].append(stock_info)
@@ -106,9 +117,6 @@ def generate_themes():
     for t in themes:
         print(f"  - {t['name']}: {len(t['stocks'])} stocks")
     print(f"Output path: {output_file}")
-
-if __name__ == "__main__":
-    generate_themes()
 
 if __name__ == "__main__":
     generate_themes()

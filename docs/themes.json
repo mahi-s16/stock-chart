@@ -83,20 +83,12 @@
           "name": "キリンホールディングス"
         },
         {
-          "code": "2737",
-          "name": "Tomen Devices Corporation"
-        },
-        {
           "code": "2801",
           "name": "キッコーマン"
         },
         {
           "code": "2802",
           "name": "味の素"
-        },
-        {
-          "code": "285A",
-          "name": "キオクシアホールディングス"
         },
         {
           "code": "2871",
@@ -159,36 +151,8 @@
           "name": "Sumco Corporation"
         },
         {
-          "code": "3653",
-          "name": "Morpho, Inc."
-        },
-        {
-          "code": "3655",
-          "name": "BrainPad Inc."
-        },
-        {
-          "code": "3687",
-          "name": "Fixstars Corporation"
-        },
-        {
           "code": "3697",
           "name": "SHIFT"
-        },
-        {
-          "code": "3774",
-          "name": "Internet Initiative Japan Inc."
-        },
-        {
-          "code": "3778",
-          "name": "SAKURA Internet Inc."
-        },
-        {
-          "code": "3984",
-          "name": "User Local, Inc."
-        },
-        {
-          "code": "3993",
-          "name": "PKSHA Technology Inc."
         },
         {
           "code": "4004",
@@ -223,10 +187,6 @@
           "name": "信越化学工業"
         },
         {
-          "code": "4080",
-          "name": "Tanaka Chemical Corporation"
-        },
-        {
           "code": "4088",
           "name": "Air Water Inc."
         },
@@ -235,28 +195,8 @@
           "name": "Nippon Sanso Holdings Corporation"
         },
         {
-          "code": "4109",
-          "name": "Stella Chemifa Corporation"
-        },
-        {
-          "code": "4118",
-          "name": "Kaneka Corporation"
-        },
-        {
-          "code": "4180",
-          "name": "Appier Group, Inc."
-        },
-        {
-          "code": "4182",
-          "name": "Mitsubishi Gas Chemical Company, Inc."
-        },
-        {
           "code": "4183",
           "name": "三井化学"
-        },
-        {
-          "code": "4186",
-          "name": "Tokyo Ohka Kogyo Co., Ltd."
         },
         {
           "code": "4188",
@@ -279,10 +219,6 @@
           "name": "UBE"
         },
         {
-          "code": "4259",
-          "name": "ExaWizards Inc."
-        },
-        {
           "code": "4272",
           "name": "日本化薬"
         },
@@ -293,22 +229,6 @@
         {
           "code": "4324",
           "name": "電通グループ"
-        },
-        {
-          "code": "4369",
-          "name": "Tri Chemical Laboratories Inc."
-        },
-        {
-          "code": "4382",
-          "name": "HEROZ, Inc."
-        },
-        {
-          "code": "4401",
-          "name": "Adeka Corporation"
-        },
-        {
-          "code": "4418",
-          "name": "Japan Data Science Consortium Co.Ltd."
         },
         {
           "code": "4452",
@@ -399,20 +319,12 @@
           "name": "東海カーボン"
         },
         {
-          "code": "5302",
-          "name": "Nippon Carbon Co., Ltd."
-        },
-        {
           "code": "5332",
           "name": "TOTO"
         },
         {
           "code": "5333",
           "name": "日本碍子"
-        },
-        {
-          "code": "5384",
-          "name": "Fujimi Incorporated"
         },
         {
           "code": "5401",
@@ -429,10 +341,6 @@
         {
           "code": "5541",
           "name": "大平洋金属"
-        },
-        {
-          "code": "5574",
-          "name": "ABEJA, Inc."
         },
         {
           "code": "5631",
@@ -511,10 +419,6 @@
           "name": "日立建機"
         },
         {
-          "code": "6324",
-          "name": "Harmonic Drive Systems Inc."
-        },
-        {
           "code": "6326",
           "name": "クボタ"
         },
@@ -591,10 +495,6 @@
           "name": "セイコーエプソン"
         },
         {
-          "code": "6730",
-          "name": "AXELL Corporation"
-        },
-        {
           "code": "6752",
           "name": "パナソニック ホールディングス"
         },
@@ -619,20 +519,8 @@
           "name": "キーエンス"
         },
         {
-          "code": "6862",
-          "name": "MINATO HOLDINGS INC."
-        },
-        {
-          "code": "6871",
-          "name": "Micronics Japan Co., Ltd."
-        },
-        {
           "code": "6902",
           "name": "デンソー"
-        },
-        {
-          "code": "6914",
-          "name": "OPTEX GROUP Company, Limited"
         },
         {
           "code": "6920",
