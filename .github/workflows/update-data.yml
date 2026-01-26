@@ -31,6 +31,7 @@ jobs:
         run: |
           cd scripts
           python generate_all_nikkei225.py 3
+          python generate_themes.py
         timeout-minutes: 60
 
       - name: Commit and push changes
@@ -38,7 +39,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add docs/data/*.json
+          git add docs/data/*.json docs/themes.json
           
           if git diff --staged --quiet; then
             echo "No changes to commit"

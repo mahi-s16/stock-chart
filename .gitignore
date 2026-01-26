@@ -12,6 +12,7 @@ ENV/
 *.json
 !docs/data/*.json
 !docs/data/.gitkeep
+!docs/themes.json
 
 # OS
 .DS_Store
