@@ -5,43 +5,27 @@ import glob
 def get_sector_icon(sector_name):
     """
     業種名に対応するアイコンを返す
+    以前のバージョンに合わせて全て「📊」を返す
     """
-    icons = {
-        "水産・農林業": "🐟",
-        "鉱業": "⛏️",
-        "建設業": "🏗️",
-        "食料品": "🍱",
-        "繊維製品": "👕",
-        "パルプ・紙": "📄",
-        "化学": "⚗️",
-        "医薬品": "💊",
-        "石油・石炭製品": "⛽",
-        "ゴム製品": "タイヤ",
-        "ガラス・土石製品": "🏺",
-        "鉄鋼": "🔩",
-        "非鉄金属": "🥉",
-        "金属製品": "🔧",
-        "機械": "⚙️",
-        "電気機器": "🔌",
-        "輸送用機器": "🚗",
-        "精密機器": "🔬",
-        "その他製品": "🎾",
-        "情報・通信業": "💻",
-        "電気・ガス業": "💡",
-        "陸運業": "🚆",
-        "海運業": "🚢",
-        "空運業": "✈️",
-        "倉庫・運輸関連業": "📦",
-        "卸売業": "🏢",
-        "小売業": "🛒",
-        "銀行業": "🏦",
-        "証券、商品先物取引業": "📈",
-        "保険業": "🛡️",
-        "その他金融業": "💳",
-        "不動産業": "🏘️",
-        "サービス業": "💁",
-    }
-    return icons.get(sector_name, "📊")
+    return "📊"
+
+def load_sector_mapping():
+    """
+    銘柄コード -> セクターの対応表を読み込む
+    """
+    script_dir = Path(__file__).parent
+    mapping_file = script_dir / 'stock_sector_mapping.json'
+    
+    if not mapping_file.exists():
+        print("Warning: stock_sector_mapping.json not found. Using raw sector names.")
+        return {}
+        
+    try:
+        with open(mapping_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error reading mapping file: {e}")
+        return {}
 
 def generate_themes():
     """
@@ -50,6 +34,9 @@ def generate_themes():
     script_dir = Path(__file__).parent
     data_dir = script_dir.parent / 'docs' / 'data'
     output_file = script_dir.parent / 'docs' / 'themes.json'
+    
+    # セクターマッピングを読み込み
+    sector_mapping = load_sector_mapping()
     
     print(f"Scanning data directory: {data_dir}")
     
@@ -68,19 +55,20 @@ def generate_themes():
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+                code = data.get('stock_code')
+                
+                # マッピングがあればそれを使用、なければデータ内のセクターを使用
+                sector = sector_mapping.get(code, data.get('sector', 'Unknown'))
                 
                 stock_info = {
-                    "code": data.get('stock_code'),
+                    "code": code,
                     "name": data.get('stock_name'),
-                    "sector": data.get('sector', 'Unknown')
+                    "sector": sector
                 }
                 all_stocks.append(stock_info)
         except Exception as e:
             print(f"Error reading {file_path.name}: {e}")
 
-    # レーザーテック(6920)、トヨタ(7203)、ソフトバンクG(9984) など主要銘柄が含まれているか確認
-    # (データ生成されていない場合もあるので、警告のみ)
-    
     # 業種ごとにグループ化
     sectors = {}
     for stock in all_stocks:
