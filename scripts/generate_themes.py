@@ -2,41 +2,40 @@ import json
 from pathlib import Path
 import glob
 
-def get_sector_icon(sector_name):
+def load_custom_config():
     """
-    業種名に対応するアイコンを返す
-    以前のバージョンに合わせて全て「📊」を返す
-    """
-    return "📊"
-
-def load_sector_mapping():
-    """
-    銘柄コード -> セクターの対応表を読み込む
+    カスタムテーマ定義とマッピングを読み込む
     """
     script_dir = Path(__file__).parent
-    mapping_file = script_dir / 'stock_sector_mapping.json'
+    config_file = script_dir / 'custom_theme_config.json'
     
-    if not mapping_file.exists():
-        print("Warning: stock_sector_mapping.json not found. Using raw sector names.")
-        return {}
+    if not config_file.exists():
+        print("Error: custom_theme_config.json not found.")
+        return None
         
     try:
-        with open(mapping_file, 'r', encoding='utf-8') as f:
+        with open(config_file, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
-        print(f"Error reading mapping file: {e}")
-        return {}
+        print(f"Error reading config file: {e}")
+        return None
 
 def generate_themes():
     """
-    docs/data/ディレクトリ内のJSONファイルをスキャンしてthemes.jsonを生成する
+    カスタム設定に基づいてthemes.jsonを生成する
     """
     script_dir = Path(__file__).parent
     data_dir = script_dir.parent / 'docs' / 'data'
     output_file = script_dir.parent / 'docs' / 'themes.json'
     
-    # セクターマッピングを読み込み
-    sector_mapping = load_sector_mapping()
+    # 設定読み込み
+    config = load_custom_config()
+    if not config:
+        return
+
+    theme_defs = config.get('themes', {})
+    stock_mapping = config.get('stock_mapping', {})
+    theme_order = config.get('theme_order', [])
     
     print(f"Scanning data directory: {data_dir}")
     
@@ -47,6 +46,9 @@ def generate_themes():
     # 全銘柄データを収集
     all_stocks = []
     
+    # テーマごとの銘柄リストを初期化
+    theme_stocks = {tid: [] for tid in theme_order}
+    
     # JSONファイルを取得
     json_files = list(data_dir.glob('*.json'))
     print(f"Found {len(json_files)} stock data files.")
@@ -56,51 +58,43 @@ def generate_themes():
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 code = data.get('stock_code')
-                
-                # マッピングがあればそれを使用、なければデータ内のセクターを使用
-                sector = sector_mapping.get(code, data.get('sector', 'Unknown'))
+                name = data.get('stock_name')
                 
                 stock_info = {
                     "code": code,
-                    "name": data.get('stock_name'),
-                    "sector": sector
+                    "name": name
                 }
-                all_stocks.append(stock_info)
+                
+                # Nikkei 225 (All) には全て追加
+                if 'all' in theme_stocks:
+                    theme_stocks['all'].append(stock_info)
+                
+                # カスタムマッピングに基づいて追加
+                mapped_theme_id = stock_mapping.get(code)
+                if mapped_theme_id and mapped_theme_id in theme_stocks:
+                    theme_stocks[mapped_theme_id].append(stock_info)
+                    
         except Exception as e:
             print(f"Error reading {file_path.name}: {e}")
-
-    # 業種ごとにグループ化
-    sectors = {}
-    for stock in all_stocks:
-        sector = stock['sector']
-        if sector not in sectors:
-            sectors[sector] = []
-        sectors[sector].append(stock)
     
     # themes.jsonの構造を作成
     themes = []
     
-    # 1. 日経225（全銘柄）
-    themes.append({
-        "id": "all",
-        "name": "Nikkei 225 (All)",
-        "description": "日経225全構成銘柄",
-        "icon": "🇯🇵",
-        "stocks": sorted(all_stocks, key=lambda x: x['code'])
-    })
-    
-    # 2. 業種別テーマ
-    sorted_sectors = sorted(sectors.keys())
-    for sector in sorted_sectors:
-        if sector == "Unknown": continue
+    for theme_id in theme_order:
+        if theme_id not in theme_defs:
+            continue
+            
+        defn = theme_defs[theme_id]
+        stocks = sorted(theme_stocks[theme_id], key=lambda x: x['code'])
         
-        themes.append({
-            "id": f"sector_{sector}",
-            "name": sector,
-            "description": f"{sector}関連銘柄",
-            "icon": get_sector_icon(sector),
-            "stocks": sorted(sectors[sector], key=lambda x: x['code'])
-        })
+        entry = {
+            "id": theme_id,
+            "name": defn['name'],
+            "description": defn['description'],
+            "icon": defn['icon'],
+            "stocks": stocks
+        }
+        themes.append(entry)
     
     # JSON出力
     output_data = {"themes": themes}
@@ -109,7 +103,12 @@ def generate_themes():
         json.dump(output_data, f, ensure_ascii=False, indent=2)
         
     print(f"Successfully generated themes.json with {len(themes)} themes.")
+    for t in themes:
+        print(f"  - {t['name']}: {len(t['stocks'])} stocks")
     print(f"Output path: {output_file}")
+
+if __name__ == "__main__":
+    generate_themes()
 
 if __name__ == "__main__":
     generate_themes()

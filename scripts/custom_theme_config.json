@@ -1,0 +1,92 @@
+{
+    "theme_order": [
+        "all",
+        "ai_semi",
+        "ai_infra",
+        "memory",
+        "ai_soft",
+        "robotics"
+    ],
+    "themes": {
+        "all": {
+            "name": "Nikkei 225 (All)",
+            "description": "日経225全構成銘柄",
+            "icon": "🇯🇵"
+        },
+        "ai_semi": {
+            "name": "AI資源・半導体材料",
+            "description": "半導体製造装置、素材、ウェハ関連",
+            "icon": "🔬"
+        },
+        "ai_infra": {
+            "name": "AIインフラ・装置製造",
+            "description": "データセンター、電力、冷却、サーバー",
+            "icon": "🏭"
+        },
+        "memory": {
+            "name": "メモリ・ストレージ",
+            "description": "DRAM、NAND、HDD、磁性体",
+            "icon": "💾"
+        },
+        "ai_soft": {
+            "name": "AIソフトウェア・サービス",
+            "description": "ITサービス、AIプラットフォーム、通信",
+            "icon": "💻"
+        },
+        "robotics": {
+            "name": "フィジカルAI・ロボティクス",
+            "description": "産業用ロボット、FA、センサー",
+            "icon": "🤖"
+        }
+    },
+    "stock_mapping": {
+        "8035": "ai_semi",
+        "6857": "ai_semi",
+        "6920": "ai_semi",
+        "3436": "ai_semi",
+        "4063": "ai_semi",
+        "4062": "ai_semi",
+        "4183": "ai_semi",
+        "4004": "ai_semi",
+        "4043": "ai_semi",
+        "4061": "ai_semi",
+        "4203": "ai_semi",
+        "6501": "ai_infra",
+        "6701": "ai_infra",
+        "6702": "ai_infra",
+        "6503": "ai_infra",
+        "5801": "ai_infra",
+        "5802": "ai_infra",
+        "5803": "ai_infra",
+        "1721": "ai_infra",
+        "1925": "ai_infra",
+        "6762": "memory",
+        "6971": "memory",
+        "6758": "memory",
+        "6723": "memory",
+        "285A": "memory",
+        "9984": "ai_soft",
+        "9434": "ai_soft",
+        "9432": "ai_soft",
+        "9433": "ai_soft",
+        "6098": "ai_soft",
+        "4324": "ai_soft",
+        "9613": "ai_soft",
+        "4704": "ai_soft",
+        "3697": "ai_soft",
+        "4307": "ai_soft",
+        "2432": "ai_soft",
+        "6954": "robotics",
+        "6506": "robotics",
+        "6273": "robotics",
+        "6861": "robotics",
+        "6301": "robotics",
+        "7733": "robotics",
+        "7741": "robotics",
+        "6471": "robotics",
+        "7751": "robotics",
+        "6326": "robotics",
+        "6361": "robotics",
+        "6594": "robotics"
+    }
+}
