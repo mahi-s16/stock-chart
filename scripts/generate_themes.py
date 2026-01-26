@@ -82,8 +82,16 @@ def generate_themes():
                 
                 # カスタムマッピングに基づいて追加 (こちらはリスト外でもOK)
                 mapped_theme_id = stock_mapping.get(code)
-                if mapped_theme_id and mapped_theme_id in theme_stocks:
-                    theme_stocks[mapped_theme_id].append(stock_info)
+                if mapped_theme_id:
+                    # 文字列ならリストに変換
+                    if isinstance(mapped_theme_id, str):
+                        mapped_themes = [mapped_theme_id]
+                    else:
+                        mapped_themes = mapped_theme_id
+                    
+                    for tid in mapped_themes:
+                        if tid in theme_stocks:
+                            theme_stocks[tid].append(stock_info)
                     
         except Exception as e:
             print(f"Error reading {file_path.name}: {e}")

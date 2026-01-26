@@ -40,57 +40,190 @@
         }
     },
     "stock_mapping": {
-        "8035": "ai_semi",
-        "6857": "memory",
-        "6920": "ai_semi",
-        "3436": "ai_semi",
-        "4063": "ai_semi",
-        "4062": "ai_semi",
-        "4183": "ai_semi",
-        "4004": "ai_semi",
-        "4043": "ai_semi",
-        "4061": "ai_semi",
-        "4203": "ai_semi",
-        "6501": "ai_infra",
-        "6701": "ai_infra",
-        "6702": "ai_infra",
-        "6503": "ai_infra",
-        "5801": "ai_infra",
-        "5802": "ai_infra",
-        "5803": "ai_infra",
-        "1721": "ai_infra",
-        "1925": "ai_infra",
-        "6762": "memory",
-        "6971": "memory",
-        "6758": "memory",
-        "6723": "memory",
-        "285A": "memory",
-        "6871": "memory",
-        "3110": "memory",
-        "6862": "memory",
-        "2737": "memory",
-        "9984": "ai_soft",
-        "9434": "ai_soft",
-        "9432": "ai_soft",
-        "9433": "ai_soft",
-        "6098": "ai_soft",
-        "4324": "ai_soft",
-        "9613": "ai_soft",
-        "4704": "ai_soft",
-        "3697": "ai_soft",
-        "4307": "ai_soft",
-        "2432": "ai_soft",
-        "6954": "robotics",
-        "6506": "robotics",
-        "6273": "robotics",
-        "6861": "robotics",
-        "6301": "robotics",
-        "7733": "robotics",
-        "7741": "robotics",
-        "6471": "robotics",
-        "7751": "robotics",
-        "6326": "robotics",
-        "6361": "robotics",
-        "6594": "robotics"
+        "8035": [
+            "ai_semi",
+            "ai_infra"
+        ],
+        "6857": [
+            "memory",
+            "ai_semi"
+        ],
+        "6920": [
+            "ai_semi"
+        ],
+        "3436": [
+            "ai_semi"
+        ],
+        "4063": [
+            "ai_semi",
+            "memory"
+        ],
+        "4062": [
+            "ai_semi"
+        ],
+        "4183": [
+            "ai_semi"
+        ],
+        "4004": [
+            "ai_semi"
+        ],
+        "4043": [
+            "ai_semi"
+        ],
+        "4061": [
+            "ai_semi"
+        ],
+        "4203": [
+            "ai_semi"
+        ],
+        "6501": [
+            "ai_infra",
+            "ai_soft",
+            "robotics"
+        ],
+        "6701": [
+            "ai_infra",
+            "ai_soft"
+        ],
+        "6702": [
+            "ai_infra",
+            "ai_soft"
+        ],
+        "6503": [
+            "ai_infra",
+            "robotics"
+        ],
+        "5801": [
+            "ai_infra"
+        ],
+        "5802": [
+            "ai_infra"
+        ],
+        "5803": [
+            "ai_infra"
+        ],
+        "1721": [
+            "ai_infra"
+        ],
+        "1925": [
+            "ai_infra"
+        ],
+        "6762": [
+            "memory",
+            "ai_semi"
+        ],
+        "6971": [
+            "memory",
+            "ai_semi"
+        ],
+        "6758": [
+            "memory",
+            "ai_semi",
+            "robotics"
+        ],
+        "6723": [
+            "memory",
+            "ai_semi"
+        ],
+        "285A": [
+            "memory",
+            "ai_semi"
+        ],
+        "6871": [
+            "memory"
+        ],
+        "3110": [
+            "memory"
+        ],
+        "6862": [
+            "memory"
+        ],
+        "2737": [
+            "memory"
+        ],
+        "9984": [
+            "ai_soft",
+            "ai_semi",
+            "ai_infra"
+        ],
+        "9434": [
+            "ai_soft",
+            "ai_infra"
+        ],
+        "9432": [
+            "ai_soft",
+            "ai_infra"
+        ],
+        "9433": [
+            "ai_soft",
+            "ai_infra"
+        ],
+        "6098": [
+            "ai_soft"
+        ],
+        "4324": [
+            "ai_soft"
+        ],
+        "9613": [
+            "ai_soft",
+            "ai_infra"
+        ],
+        "4704": [
+            "ai_soft"
+        ],
+        "3697": [
+            "ai_soft"
+        ],
+        "4307": [
+            "ai_soft"
+        ],
+        "2432": [
+            "ai_soft"
+        ],
+        "6954": [
+            "robotics",
+            "ai_infra"
+        ],
+        "6506": [
+            "robotics",
+            "ai_infra"
+        ],
+        "6273": [
+            "robotics",
+            "ai_infra"
+        ],
+        "6861": [
+            "robotics",
+            "ai_soft"
+        ],
+        "6301": [
+            "robotics",
+            "ai_infra"
+        ],
+        "7733": [
+            "robotics"
+        ],
+        "7741": [
+            "robotics",
+            "ai_semi"
+        ],
+        "6471": [
+            "robotics"
+        ],
+        "7751": [
+            "robotics",
+            "ai_semi"
+        ],
+        "6326": [
+            "robotics"
+        ],
+        "6361": [
+            "robotics",
+            "ai_infra"
+        ],
+        "6594": [
+            "robotics",
+            "ai_infra"
+        ]
     }
 }
