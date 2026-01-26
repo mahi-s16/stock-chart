@@ -8,10 +8,6 @@
             "name": "日本水産"
         },
         {
-            "code": "1333",
-            "name": "マルハニチロ"
-        },
-        {
             "code": "1605",
             "name": "INPEX"
         },
@@ -84,10 +80,6 @@
             "name": "キリンホールディングス"
         },
         {
-            "code": "2531",
-            "name": "Stock 2531"
-        },
-        {
             "code": "2768",
             "name": "Stock 2768"
         },
@@ -112,20 +104,18 @@
             "name": "J.フロント リテイリング"
         },
         {
+            "code": "3092",
+            "name": "Unknown 3092",
+            "sector": "Unknown"
+        },
+        {
             "code": "3099",
             "name": "三越伊勢丹ホールディングス"
         },
         {
-            "code": "3101",
-            "name": "東洋紡"
-        },
-        {
-            "code": "3103",
-            "name": "ユニチカ"
-        },
-        {
-            "code": "3105",
-            "name": "日清紡ホールディングス"
+            "code": "3289",
+            "name": "Unknown 3289",
+            "sector": "Unknown"
         },
         {
             "code": "3382",
@@ -152,8 +142,18 @@
             "name": "SUMCO"
         },
         {
+            "code": "3659",
+            "name": "Unknown 3659",
+            "sector": "Unknown"
+        },
+        {
             "code": "3697",
             "name": "SHIFT"
+        },
+        {
+            "code": "3861",
+            "name": "Unknown 3861",
+            "sector": "Unknown"
         },
         {
             "code": "4004",
@@ -200,24 +200,8 @@
             "name": "三菱ケミカルグループ"
         },
         {
-            "code": "4202",
-            "name": "ダイセル"
-        },
-        {
-            "code": "4203",
-            "name": "住友ベークライト"
-        },
-        {
-            "code": "4204",
-            "name": "積水化学工業"
-        },
-        {
             "code": "4208",
             "name": "UBE"
-        },
-        {
-            "code": "4272",
-            "name": "日本化薬"
         },
         {
             "code": "4307",
@@ -226,6 +210,11 @@
         {
             "code": "4324",
             "name": "電通グループ"
+        },
+        {
+            "code": "4385",
+            "name": "Unknown 4385",
+            "sector": "Unknown"
         },
         {
             "code": "4452",
@@ -278,6 +267,16 @@
         {
             "code": "4704",
             "name": "トレンドマイクロ"
+        },
+        {
+            "code": "4751",
+            "name": "Unknown 4751",
+            "sector": "Unknown"
+        },
+        {
+            "code": "4755",
+            "name": "Unknown 4755",
+            "sector": "Unknown"
         },
         {
             "code": "4901",
@@ -344,24 +343,12 @@
             "name": "JFEホールディングス"
         },
         {
-            "code": "5541",
-            "name": "大平洋金属"
-        },
-        {
             "code": "5631",
             "name": "日本製鋼所"
         },
         {
-            "code": "5703",
-            "name": "日本軽金属ホールディングス"
-        },
-        {
             "code": "5706",
             "name": "三井金属鉱業"
-        },
-        {
-            "code": "5707",
-            "name": "東邦亜鉛"
         },
         {
             "code": "5711",
@@ -386,6 +373,11 @@
         {
             "code": "5803",
             "name": "フジクラ"
+        },
+        {
+            "code": "5831",
+            "name": "Unknown 5831",
+            "sector": "Unknown"
         },
         {
             "code": "6098",
@@ -476,10 +468,6 @@
             "name": "ベイカレント・コンサルティング"
         },
         {
-            "code": "6594",
-            "name": "ニデック"
-        },
-        {
             "code": "6645",
             "name": "オムロン"
         },
@@ -544,10 +532,6 @@
             "name": "レーザーテック"
         },
         {
-            "code": "6923",
-            "name": "スタンレー電気"
-        },
-        {
             "code": "6952",
             "name": "カシオ計算機"
         },
@@ -572,8 +556,14 @@
             "name": "村田製作所"
         },
         {
-            "code": "7003",
-            "name": "三井E&Sホールディングス"
+            "code": "6988",
+            "name": "Unknown 6988",
+            "sector": "Unknown"
+        },
+        {
+            "code": "7004",
+            "name": "Unknown 7004",
+            "sector": "Unknown"
         },
         {
             "code": "7011",
@@ -586,6 +576,11 @@
         {
             "code": "7013",
             "name": "IHI"
+        },
+        {
+            "code": "7186",
+            "name": "Unknown 7186",
+            "sector": "Unknown"
         },
         {
             "code": "7201",
@@ -672,6 +667,11 @@
             "name": "ヤマハ"
         },
         {
+            "code": "7974",
+            "name": "Unknown 7974",
+            "sector": "Unknown"
+        },
+        {
             "code": "8001",
             "name": "伊藤忠商事"
         },
@@ -708,12 +708,13 @@
             "name": "丸井グループ"
         },
         {
-            "code": "8267",
-            "name": "イオン"
+            "code": "8253",
+            "name": "Unknown 8253",
+            "sector": "Unknown"
         },
         {
-            "code": "8303",
-            "name": "新生銀行"
+            "code": "8267",
+            "name": "イオン"
         },
         {
             "code": "8304",
@@ -748,6 +749,11 @@
             "name": "みずほフィナンシャルグループ"
         },
         {
+            "code": "8591",
+            "name": "Unknown 8591",
+            "sector": "Unknown"
+        },
+        {
             "code": "8601",
             "name": "大和証券グループ本社"
         },
@@ -756,12 +762,13 @@
             "name": "野村ホールディングス"
         },
         {
-            "code": "8628",
-            "name": "松井証券"
-        },
-        {
             "code": "8630",
             "name": "SOMPOホールディングス"
+        },
+        {
+            "code": "8697",
+            "name": "Unknown 8697",
+            "sector": "Unknown"
         },
         {
             "code": "8725",
@@ -848,6 +855,11 @@
             "name": "Stock 9147"
         },
         {
+            "code": "9201",
+            "name": "Unknown 9201",
+            "sector": "Unknown"
+        },
+        {
             "code": "9202",
             "name": "ANAホールディングス"
         },
@@ -884,8 +896,9 @@
             "name": "大阪ガス"
         },
         {
-            "code": "9613",
-            "name": "NTTデータグループ"
+            "code": "9602",
+            "name": "Unknown 9602",
+            "sector": "Unknown"
         },
         {
             "code": "9735",
@@ -894,6 +907,11 @@
         {
             "code": "9766",
             "name": "コナミグループ"
+        },
+        {
+            "code": "9843",
+            "name": "Unknown 9843",
+            "sector": "Unknown"
         },
         {
             "code": "9983",
