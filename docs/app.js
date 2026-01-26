@@ -555,6 +555,7 @@ function renderMAChart(data) {
                 color: '#FDA4AF',
                 width: 2
             },
+            connectgaps: true,
             yaxis: 'y',
             hovertemplate: '<b>5日MA</b><br>%{y:,.0f}円<br>%{x}<extra></extra>'
         },
@@ -570,6 +571,7 @@ function renderMAChart(data) {
                 color: '#93C5FD',
                 width: 2
             },
+            connectgaps: true,
             yaxis: 'y',
             hovertemplate: '<b>25日MA</b><br>%{y:,.0f}円<br>%{x}<extra></extra>'
         },
@@ -585,6 +587,7 @@ function renderMAChart(data) {
                 color: '#86EFAC',
                 width: 2
             },
+            connectgaps: true,
             yaxis: 'y',
             hovertemplate: '<b>75日MA</b><br>%{y:,.0f}円<br>%{x}<extra></extra>'
         },
