@@ -2,7 +2,7 @@
   "themes": [
     {
       "id": "all",
-      "name": "Nikkei 225 (All)",
+      "name": "日経225",
       "description": "日経225全構成銘柄",
       "icon": "🇯🇵",
       "stocks": [
@@ -39,12 +39,20 @@
           "name": "長谷工コーポレーション"
         },
         {
+          "code": "1812",
+          "name": "Kajima Corporation"
+        },
+        {
           "code": "1925",
           "name": "大和ハウス工業"
         },
         {
           "code": "1928",
           "name": "積水ハウス"
+        },
+        {
+          "code": "1963",
+          "name": "JGC Holdings Corporation"
         },
         {
           "code": "2002",
@@ -81,6 +89,14 @@
         {
           "code": "2503",
           "name": "キリンホールディングス"
+        },
+        {
+          "code": "2531",
+          "name": "Takara Holdings Inc."
+        },
+        {
+          "code": "2768",
+          "name": "Sojitz Corporation"
         },
         {
           "code": "2801",
@@ -195,6 +211,10 @@
           "name": "Nippon Sanso Holdings Corporation"
         },
         {
+          "code": "4151",
+          "name": "Kyowa Kirin Co., Ltd."
+        },
+        {
           "code": "4183",
           "name": "三井化学"
         },
@@ -275,12 +295,20 @@
           "name": "オリエンタルランド"
         },
         {
+          "code": "4689",
+          "name": "LY Corporation"
+        },
+        {
           "code": "4704",
           "name": "トレンドマイクロ"
         },
         {
           "code": "4901",
           "name": "FUJIFILM Holdings Corporation"
+        },
+        {
+          "code": "4902",
+          "name": "Konica Minolta, Inc."
         },
         {
           "code": "4911",
@@ -391,6 +419,10 @@
           "name": "リクルートホールディングス"
         },
         {
+          "code": "6103",
+          "name": "Okuma Corporation"
+        },
+        {
           "code": "6113",
           "name": "アマダ"
         },
@@ -413,6 +445,10 @@
         {
           "code": "6301",
           "name": "小松製作所"
+        },
+        {
+          "code": "6302",
+          "name": "Sumitomo Heavy Industries, Ltd."
         },
         {
           "code": "6305",
@@ -479,6 +515,10 @@
           "name": "オムロン"
         },
         {
+          "code": "6674",
+          "name": "GS Yuasa Corporation"
+        },
+        {
           "code": "6701",
           "name": "NEC Corporation"
         },
@@ -499,12 +539,20 @@
           "name": "パナソニック ホールディングス"
         },
         {
+          "code": "6753",
+          "name": "Sharp Corporation"
+        },
+        {
           "code": "6758",
           "name": "ソニーグループ"
         },
         {
           "code": "6762",
           "name": "TDK"
+        },
+        {
+          "code": "6770",
+          "name": "Alps Alpine Co., Ltd."
         },
         {
           "code": "6841",
@@ -591,6 +639,10 @@
           "name": "三菱自動車工業"
         },
         {
+          "code": "7261",
+          "name": "Mazda Motor Corporation"
+        },
+        {
           "code": "7267",
           "name": "本田技研工業"
         },
@@ -629,6 +681,14 @@
         {
           "code": "7751",
           "name": "キヤノン"
+        },
+        {
+          "code": "7752",
+          "name": "Ricoh Company, Ltd."
+        },
+        {
+          "code": "7762",
+          "name": "Citizen Watch Co., Ltd."
         },
         {
           "code": "7832",
@@ -755,12 +815,20 @@
           "name": "東京海上ホールディングス"
         },
         {
+          "code": "8795",
+          "name": "T&D Holdings, Inc."
+        },
+        {
           "code": "8801",
           "name": "三井不動産"
         },
         {
           "code": "8802",
           "name": "三菱地所"
+        },
+        {
+          "code": "8804",
+          "name": "Tokyo Tatemono Co., Ltd."
         },
         {
           "code": "8830",
@@ -813,6 +881,10 @@
         {
           "code": "9107",
           "name": "川崎汽船"
+        },
+        {
+          "code": "9147",
+          "name": "Nippon Express Holdings, Inc."
         },
         {
           "code": "9202",

@@ -68,12 +68,22 @@ def generate_themes():
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                code = data.get('stock_code')
-                name = data.get('stock_name')
                 
+                # Handle both flat structure (existing) and nested "info" structure (new fetch script)
+                if 'info' in data and isinstance(data['info'], dict):
+                    code = data['info'].get('code')
+                    name = data['info'].get('name')
+                else:
+                    code = data.get('stock_code')
+                    name = data.get('stock_name')
+                
+                if not code:
+                    print(f"Skipping {file_path.name}: No stock code found")
+                    continue
+
                 stock_info = {
                     "code": code,
-                    "name": name
+                    "name": name or f"Stock {code}"
                 }
                 
                 # Nikkei 225 (All) には公式リストにある場合のみ追加

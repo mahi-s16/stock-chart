@@ -9,7 +9,7 @@
     ],
     "themes": {
         "all": {
-            "name": "Nikkei 225 (All)",
+            "name": "日経225",
             "description": "日経225全構成銘柄",
             "icon": "🇯🇵"
         },
