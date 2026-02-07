@@ -6,3 +6,4 @@
 - [x] データファイル名の修正 (`stock_data_XXXX.json` -> `XXXX.json`)
 - [x] 修正の検証 (IHI, 任天堂)
 - [x] ドキュメント作成 (`docs/fix_ma_disconnected_lines/`)
+- [x] GitHub Pagesへデプロイ (Changes pushed to main)
